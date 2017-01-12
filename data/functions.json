@@ -1,0 +1,692 @@
+[
+    {
+        "scope": "Provision of legal advice, formulation of legislation and provision of legal aid services. Also includes responsibility and protection of the civil and consumer rights of individuals. USE Justice Administration for the Commonwealth Law Court System and USE Law Enforcement for policing functions", 
+        "narrower": [
+            {
+                "name": "Bankruptcy"
+            }, 
+            {
+                "name": "Censorship"
+            }, 
+            {
+                "name": "Consumer affairs"
+            }, 
+            {
+                "name": "Copyright"
+            }, 
+            {
+                "name": "Human rights"
+            }, 
+            {
+                "name": "Legal aid"
+            }, 
+            {
+                "name": "Legal services"
+            }, 
+            {
+                "name": "Ombudsman"
+            }
+        ], 
+        "name": "ADMINISTRATIVE LAW"
+    }, 
+    {
+        "scope": "Functions relating to the provision of services to the Commonwealth Government and general public, including leasing, purchasing, storage, protection of government and diplomatic buildings", 
+        "narrower": [
+            {
+                "name": "Freight"
+            }, 
+            {
+                "name": "Goods and Services"
+            }, 
+            {
+                "name": "Government accommodation and catering"
+            }, 
+            {
+                "narrower": [
+                    "Acquisition", 
+                    "Leasing", 
+                    "Maintenance"
+                ], 
+                "name": "Property management"
+            }, 
+            {
+                "name": "Removals"
+            }, 
+            {
+                "name": "Storage"
+            }, 
+            {
+                "name": "Valuation"
+            }
+        ], 
+        "name": "ADMINISTRATIVE SERVICES"
+    }, 
+    {
+        "scope": "Auditing and financial scrutiny of government operations, including departments, and autonomous or independent bodies", 
+        "name": "Audit"
+    }, 
+    {
+        "scope": "Provision of secretariat services to Cabinet, Cabinet Committees and special wartime Cabinets", 
+        "name": "Cabinet"
+    }, 
+    {
+        "scope": "Independent investigations and reviews established for specific purposes and abolished on completion of their tasks", 
+        "name": "Committees of Inquiry"
+    }, 
+    {
+        "scope": "Electronic and print media and publishing, postal or telecommunications operations of the government (eg Australia Post). Also includes operation of government broadcasting stations and regulation of the broadcasting industry", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Radio broadcasting", 
+                    "Television broadcasting"
+                ], 
+                "name": "Broadcasting"
+            }, 
+            {
+                "name": "Government media"
+            }, 
+            {
+                "name": "Postal services"
+            }, 
+            {
+                "name": "Publishing and printing"
+            }, 
+            {
+                "name": "Telecommunications"
+            }
+        ], 
+        "name": "COMMUNICATIONS"
+    }, 
+    {
+        "scope": "Government involvement in the management, operation and support for the arts and cultural organisations such as museums, libraries and art galleries", 
+        "narrower": [
+            {
+                "name": "Archives administration"
+            }, 
+            {
+                "narrower": [
+                    "Film production"
+                ], 
+                "name": "Arts development"
+            }, 
+            {
+                "name": "Collection management"
+            }, 
+            {
+                "name": "Literature funding"
+            }
+        ], 
+        "name": "CULTURAL AFFAIRS"
+    }, 
+    {
+        "scope": "Administration and development of defence policy in time of peace or war. Includes military protection of Australia and the coordination of natural disaster services, the management of the defence industries infrastructure, defence scientific research and the collection of information of a strategic nature", 
+        "narrower": [
+            {
+                "name": "Defence administration"
+            }, 
+            {
+                "name": "Defence forces"
+            }, 
+            {
+                "narrower": [
+                    "Munitions", 
+                    "Ordnance", 
+                    "Shipbuilding"
+                ], 
+                "name": "Defence industries"
+            }, 
+            {
+                "name": "Defence intelligence"
+            }, 
+            {
+                "name": "Defence research"
+            }
+        ], 
+        "name": "DEFENCE"
+    }, 
+    {
+        "scope": "Commonwealth area of responsibility for education, including scholarships, programs to assist students, particularly through grants to individuals, educational institutions and curriculum development. For scholarships to overseas students studying in Australia USE Overseas aid programs", 
+        "narrower": [
+            {
+                "name": "Curriculum development"
+            }, 
+            {
+                "name": "Preschool education"
+            }, 
+            {
+                "name": "Primary education"
+            }, 
+            {
+                "name": "Secondary education"
+            }, 
+            {
+                "name": "Student assistance"
+            }, 
+            {
+                "name": "Tertiary education"
+            }
+        ], 
+        "name": "EDUCATION"
+    }, 
+    {
+        "scope": "Federal referendums and elections covering Parliament, unions and other bodies", 
+        "name": "Electoral matters"
+    }, 
+    {
+        "scope": "Policy, development and research into the natural environment and the national estate, including world heritage concerns. For industries impacting on the environment USE Primary industries OR Secondary industries", 
+        "narrower": [
+            {
+                "name": "Conservation"
+            }, 
+            {
+                "name": "Environmental monitoring"
+            }, 
+            {
+                "name": "National heritage"
+            }, 
+            {
+                "name": "National parks"
+            }
+        ], 
+        "name": "ENVIRONMENT"
+    }, 
+    {
+        "scope": "Determination of public policy on and regulation of taxation, supera-+nnuation, and the corporate and banking sectors; regulation of foreign investment and exchange issues. Also includes determination of Commonwealth funds to the States and Territories", 
+        "narrower": [
+            {
+                "name": "Banking"
+            }, 
+            {
+                "name": "Commonwealth-State relations"
+            }, 
+            {
+                "name": "Corporate affairs"
+            }, 
+            {
+                "name": "Currency"
+            }, 
+            {
+                "name": "Foreign investment control"
+            }, 
+            {
+                "name": "Home savings schemes"
+            }, 
+            {
+                "name": "Insurance"
+            }, 
+            {
+                "name": "Market regulation"
+            }, 
+            {
+                "name": "Public borrowing"
+            }, 
+            {
+                "name": "Rationing and price control"
+            }, 
+            {
+                "name": "Superannuation"
+            }, 
+            {
+                "name": "Taxation"
+            }
+        ], 
+        "name": "FINANCIAL MATTERS"
+    }, 
+    {
+        "scope": "Development of international relations, including the United Nations; diplomatic representation in overseas countries, including trade and immigration. Also includes implementation of aid programs for other countries", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Consular services", 
+                    "Extraditions"
+                ], 
+                "name": "Government representation overseas"
+            }, 
+            {
+                "name": "International relations"
+            }, 
+            {
+                "name": "Overseas aid programs"
+            }, 
+            {
+                "name": "Passports"
+            }
+        ], 
+        "name": "FOREIGN POLICY"
+    }, 
+    {
+        "scope": "Representation of the Monarchy in Australia, involvement in Royal visits. For vice regal involvement in other ceremonial activities USE Ceremonial functions", 
+        "name": "Governor-General"
+    }, 
+    {
+        "scope": "Public health, including quarantine and health research, except medical insurance and health benefit schemes. For insurance and benefit schemes USE Health insurance", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Aged persons services", 
+                    "Dental services", 
+                    "Disability services", 
+                    "Hearing services", 
+                    "Nursing services"
+                ], 
+                "name": "Health services"
+            }, 
+            {
+                "narrower": [
+                    "Pathology"
+                ], 
+                "name": "Hospitals and clinics"
+            }, 
+            {
+                "name": "Medical research"
+            }, 
+            {
+                "name": "Pharmaceuticals and medical aids"
+            }, 
+            {
+                "name": "Quarantine"
+            }, 
+            {
+                "name": "Rehabilitation"
+            }
+        ], 
+        "name": "HEALTH"
+    }, 
+    {
+        "scope": "Health and welfare of indigenous peoples; includes social and political affairs and the provision of incentives for economic development", 
+        "narrower": [
+            {
+                "name": "Indigenous enterprises"
+            }, 
+            {
+                "name": "Indigenous land rights"
+            }, 
+            {
+                "name": "Indigenous settlements"
+            }
+        ], 
+        "name": "INDIGENOUS AFFAIRS"
+    }, 
+    {
+        "scope": "Government involvement in the labour market; training and employment and national service; regulation and arbitration of working conditions and practices including promotion of safe working environments. For postwar reconstruction training schemes USE Repatriation", 
+        "narrower": [
+            {
+                "name": "Arbitration"
+            }, 
+            {
+                "name": "Compensation schemes"
+            }, 
+            {
+                "narrower": [
+                    "Labour market programs", 
+                    "Trade skills assessment", 
+                    "Vocational training schemes"
+                ], 
+                "name": "Employment"
+            }, 
+            {
+                "name": "National Service"
+            }, 
+            {
+                "name": "Occupational health and safety"
+            }, 
+            {
+                "name": "Trade union training"
+            }
+        ], 
+        "name": "INDUSTRIAL RELATIONS"
+    }, 
+    {
+        "scope": "Carriage of the Commonwealth justice system, including management and operation of judicial institutions", 
+        "narrower": [
+            {
+                "name": "Court reporting"
+            }, 
+            {
+                "name": "Family law"
+            }, 
+            {
+                "name": "Federal law"
+            }, 
+            {
+                "name": "Supreme law"
+            }
+        ], 
+        "name": "JUSTICE ADMINISTRATION"
+    }, 
+    {
+        "scope": "Administration of policing function of Federal and former territory jurisdiction and research into law enforcement patterns and trends. Also covers protection of diplomatic missions and corrective services", 
+        "narrower": [
+            {
+                "name": "Corrective services"
+            }, 
+            {
+                "name": "Criminology"
+            }, 
+            {
+                "name": "Police administration"
+            }, 
+            {
+                "name": "Protective services"
+            }
+        ], 
+        "name": "LAW ENFORCEMENT"
+    }, 
+    {
+        "scope": "Design, negotiations for, construction and maintenance of memorials and monuments", 
+        "narrower": [
+            {
+                "name": "Historic memorials"
+            }, 
+            {
+                "name": "War memorials"
+            }
+        ], 
+        "name": "MEMORIALS"
+    }, 
+    {
+        "scope": "Development and implementation of immigration and multicultural programs, including migrant accommodation, refugees, and recognition of overseas qualifications", 
+        "narrower": [
+            {
+                "name": "Citizenship"
+            }, 
+            {
+                "name": "Deportation"
+            }, 
+            {
+                "name": "Migrant services"
+            }, 
+            {
+                "name": "Multiculturalism"
+            }, 
+            {
+                "name": "Passenger entry control"
+            }, 
+            {
+                "name": "Refugees"
+            }, 
+            {
+                "name": "Visas"
+            }
+        ], 
+        "name": "MIGRATION"
+    }, 
+    {
+        "scope": "Planning, funding or coordination of events or festivals designed to commemorate significant events related to the history and development of Australia", 
+        "name": "National events"
+    }, 
+    {
+        "scope": "Execution of the parliamentary process in the House of Representatives and the Senate. Includes the Committees of House of Representatives, Senate and Joint House, and the provision of services to the Parliament", 
+        "narrower": [
+            {
+                "name": "Parliamentary chamber administration"
+            }, 
+            {
+                "name": "Parliamentary legislation"
+            }
+        ], 
+        "name": "PARLIAMENTARY MATTERS"
+    }, 
+    {
+        "scope": "Primary industries, except mining. For animal and plant quarantine USE Quarantine", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Horticulture", 
+                    "Pastoral", 
+                    "Viticulture"
+                ], 
+                "name": "Agriculture"
+            }, 
+            {
+                "name": "Fisheries regulation"
+            }, 
+            {
+                "name": "Forestry regulation"
+            }
+        ], 
+        "name": "PRIMARY INDUSTRIES"
+    }, 
+    {
+        "scope": "Operational activities of the Australian Public Service, including working conditions and conditions of service", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Equity programs", 
+                    "Recruitment"
+                ], 
+                "name": "Personnel"
+            }
+        ], 
+        "name": "PUBLIC SERVICE"
+    }, 
+    {
+        "scope": "Development and promotion of tourism, national fitness, sports and other recreational activities, such as parks", 
+        "narrower": [
+            {
+                "name": "National fitness"
+            }, 
+            {
+                "name": "Parks"
+            }, 
+            {
+                "name": "Sport"
+            }, 
+            {
+                "name": "Tourism"
+            }
+        ], 
+        "name": "RECREATION"
+    }, 
+    {
+        "scope": "Development and regulation of resource-related industries. Includes control over practices and research into renewable energy sources. For impact of resource extraction on the natural environment USE THE TERM ENVIRONMENT", 
+        "narrower": [
+            {
+                "name": "Energy"
+            }, 
+            {
+                "name": "Metals"
+            }, 
+            {
+                "name": "Mining"
+            }, 
+            {
+                "name": "Water resources"
+            }
+        ], 
+        "name": "RESOURCES"
+    }, 
+    {
+        "scope": "Investigations conducted under the provisions of the Royal Commissions Act", 
+        "name": "Royal Commissions"
+    }, 
+    {
+        "scope": "Development and promotion of science research and standards, land and sea survey and mapping, management of science programs including meteorology and space science", 
+        "narrower": [
+            {
+                "name": "Analytical services"
+            }, 
+            {
+                "name": "Earth sciences"
+            }, 
+            {
+                "name": "Marine science"
+            }, 
+            {
+                "name": "Meteorology"
+            }, 
+            {
+                "narrower": [
+                    "Botany", 
+                    "Genetics", 
+                    "Zoology"
+                ], 
+                "name": "Scientific research"
+            }, 
+            {
+                "name": "Space science"
+            }, 
+            {
+                "name": "Survey and mapping"
+            }
+        ], 
+        "name": "SCIENCE"
+    }, 
+    {
+        "scope": "Government factories and Commonwealth involvement in the manufacturing sector (not related to Defence). Includes textiles, motor vehicles, electronics and consumer durables", 
+        "name": "Secondary industries"
+    }, 
+    {
+        "scope": "Covers the activities of the Australian intelligence community. Includes information and advice affecting Australia\u0092s internal security, defences, diplomacy, and international relations", 
+        "narrower": [
+            {
+                "name": "External security"
+            }, 
+            {
+                "name": "Internal security"
+            }, 
+            {
+                "narrower": [
+                    "Internees"
+                ], 
+                "name": "Wartime security"
+            }
+        ], 
+        "name": "SECURITY AND INTELLIGENCE"
+    }, 
+    {
+        "scope": "Development and implementation of demographic surveys, census and provision of statistical information", 
+        "name": "Social and economic research"
+    }, 
+    {
+        "scope": "Provision of community and welfare services, administration of pensions and allowances, and regulation of health insurance industry including government health-related subsidies", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Child welfare"
+                ], 
+                "name": "Community services"
+            }, 
+            {
+                "name": "Health insurance"
+            }, 
+            {
+                "name": "Pensions and benefits"
+            }
+        ], 
+        "name": "SOCIAL WELFARE"
+    }, 
+    {
+        "scope": "All activities relating to mainland and external territories including the national capital. Also includes claims for compensation for land degradation. For administration of colonies USE Colonial Administration", 
+        "name": "TERRITORY ADMINISTRATION"
+    }, 
+    {
+        "scope": "Exports and imports of resources and manufactured goods. Regulation of industry protection and subsidy schemes and control of imports through customs services", 
+        "narrower": [
+            {
+                "name": "Bounties"
+            }, 
+            {
+                "narrower": [
+                    "Coastal surveillance", 
+                    "Excise", 
+                    "Inspection services", 
+                    "Tariff regulation"
+                ], 
+                "name": "Customs"
+            }, 
+            {
+                "name": "Exports and imports"
+            }, 
+            {
+                "name": "Expositions"
+            }, 
+            {
+                "name": "Patents and trademarks"
+            }, 
+            {
+                "name": "Trade practices"
+            }, 
+            {
+                "name": "Weights and measures"
+            }
+        ], 
+        "name": "TRADE"
+    }, 
+    {
+        "scope": "Public and private transport but excluding infrastructure activity such as road building. Also includes management of transport facilities such as lighthouses and airports", 
+        "narrower": [
+            {
+                "narrower": [
+                    "Air safety", 
+                    "Airport"
+                ], 
+                "name": "Air transport"
+            }, 
+            {
+                "narrower": [
+                    "Rail transport", 
+                    "Road transport", 
+                    "Road safety"
+                ], 
+                "name": "Land transport"
+            }, 
+            {
+                "name": "Rescue coordination"
+            }, 
+            {
+                "narrower": [
+                    "Lighthouses", 
+                    "Navigation", 
+                    "Port regulation", 
+                    "Sea safety"
+                ], 
+                "name": "Sea Transport"
+            }
+        ], 
+        "name": "TRANSPORT"
+    }, 
+    {
+        "scope": "Support for war veterans and their dependents, including determination of eligibility, provision of hospitals and geriatric care facilities", 
+        "narrower": [
+            {
+                "name": "Repatriation"
+            }, 
+            {
+                "name": "Repatriation hospitals"
+            }
+        ], 
+        "name": "VETERANS\u0092 AFFAIRS"
+    }, 
+    {
+        "scope": "Determination of Government policy on construction and infrastructure projects including railways, housing and offices. Also includes provision of municipal services to mainland territories and development of programs to foster urban and regional development", 
+        "narrower": [
+            {
+                "name": "Building"
+            }, 
+            {
+                "name": "Civil engineering"
+            }, 
+            {
+                "name": "Construction"
+            }, 
+            {
+                "name": "Housing"
+            }, 
+            {
+                "name": "Public utilities"
+            }, 
+            {
+                "name": "Regional development"
+            }, 
+            {
+                "name": "Urban development"
+            }, 
+            {
+                "name": "Waste disposal"
+            }
+        ], 
+        "name": "WORKS"
+    }
+]
