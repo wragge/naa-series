@@ -1,0 +1,4 @@
+rstools
+credentials.py
+*.pyc
+.DS_Store
