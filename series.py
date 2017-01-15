@@ -330,6 +330,6 @@ def write_prefix_counts():
             print '    {:40}{} ({:.1%} of series with descriptions)'.format('Series with digitised items:', prefix['series_with_digitised'], float(prefix['series_with_digitised']) / prefix['series_with_descriptions'] if prefix['series_with_descriptions'] else 0)
             print '    {:40}{}'.format('Total items described:', prefix['total_described'])
             print '    {:40}{} ({:.1%} of items described)'.format('Total items digitised:', prefix['total_digitised'], float(prefix['total_digitised']) / prefix['total_described'] if prefix['total_described'] else 0)
-            writer.writerow([prefix['prefix'], prefix['description'], prefix['series_with_descriptions'], prefix['series_with_digitised'], prefix['total_described'], prefix['total_digitised']])
+            writer.writerow([prefix['prefix'], prefix['description'], prefix['total_series'], prefix['series_with_descriptions'], prefix['series_with_digitised'], prefix['total_described'], prefix['total_digitised']])
 
 

@@ -1,38 +1,38 @@
 prefix,description,total series,series with descriptions,series with digitised items,total items described,total items digitised
-A,"National Archives of Australia, National Office – ACT",5983,1776,4514866,583023
-AWM,Australian War Memorial,348,13,248349,18
-B,"National Archives of Australia, Victoria",1457,210,2212337,777500
-C,"National Archives of Australia, New South Wales",1169,173,462116,19204
-D,"National Archives of Australia, South Australia",750,164,553735,43743
-E,"National Archives of Australia, Northern Territory",488,112,69089,6731
-J,"National Archives of Australia, Queensland (including North Queensland)",565,164,341795,51405
-K,"National Archives of Australia, Western Australia",493,121,276862,34766
-M,"Personal and corporate records (registered by National Archives of Australia, all offices)",1406,357,92520,19842
-N,Christmas Island Administration records,27,12,4059,81
-P,"National Archives of Australia, Tasmania",543,78,180423,26457
-R,"Intergovernmental records (registered by National Archives of Australia, all offices)",92,19,10136,7770
-F,Northern Territory Administration Records (allocation from this prefix has ceased),261,32,24893,1040
-G,Papua and New Guinea Administration records (to be allocated by the National Office),269,2,2433,2
-H,Norfolk Island Administration records (allocation from this prefix has ceased),1,0,1,0
-O,"Territorial Personal Archives, Northern Territory (allocation from this prefix has ceased)",2,1,2,1
-AP,Adelaide Permanent,288,66,43978,981
-AT,Adelaide Temporary,38,5,17367,23
-BP,Brisbane Permanent,588,142,236586,35105
-BT,Brisbane Temporary,47,15,1805,84
-CP,Canberra Permanent,738,173,36307,2310
-CT,Canberra Temporary,52,32,11430,11006
-MP,Melbourne Permanent,2291,297,438209,98772
-MT,Melbourne Temporary,256,55,209415,20079
-PP,Perth Permanent,837,236,310657,8887
-PT,Perth Temporary,71,10,1258,26
-SP,Sydney Permanent,1150,250,402192,19564
-ST,Sydney Temporary,226,37,14311,712
-AA,Australian Capital Territory Accession,205,65,7804,698
-NA,New South Wales Accession,6,1,568,2
-NQA,North Queensland Accession,1,1,10,9
-NTAC,Northern Territory Accession,78,14,1625,125
-QA,Queensland Accession,0,0,0,0
-SA,South Australia Accession,0,0,0,0
-TA,Tasmania Accession,3,0,35,0
-VA,Victoria Accession,6,1,41,1
-WA,Western Australia Accession,0,0,0,0
+A,"National Archives of Australia, National Office – ACT",13180,5983,1776,4514866,583023
+AWM,Australian War Memorial,384,348,13,248349,18
+B,"National Archives of Australia, Victoria",6238,1457,210,2212337,777500
+C,"National Archives of Australia, New South Wales",4205,1169,173,462116,19204
+D,"National Archives of Australia, South Australia",4447,750,164,553735,43743
+E,"National Archives of Australia, Northern Territory",1458,488,112,69089,6731
+J,"National Archives of Australia, Queensland (including North Queensland)",2695,565,164,341795,51405
+K,"National Archives of Australia, Western Australia",1346,493,121,276862,34766
+M,"Personal and corporate records (registered by National Archives of Australia, all offices)",4414,1406,357,92520,19842
+N,Christmas Island Administration records,31,27,12,4059,81
+P,"National Archives of Australia, Tasmania",2568,543,78,180423,26457
+R,"Intergovernmental records (registered by National Archives of Australia, all offices)",214,92,19,10136,7770
+F,Northern Territory Administration Records (allocation from this prefix has ceased),1158,261,32,24893,1040
+G,Papua and New Guinea Administration records (to be allocated by the National Office),273,269,2,2433,2
+H,Norfolk Island Administration records (allocation from this prefix has ceased),5,1,0,1,0
+O,"Territorial Personal Archives, Northern Territory (allocation from this prefix has ceased)",17,2,1,2,1
+AP,Adelaide Permanent,1966,288,66,43978,981
+AT,Adelaide Temporary,549,38,5,17367,23
+BP,Brisbane Permanent,960,588,142,236586,35105
+BT,Brisbane Temporary,533,47,15,1805,84
+CP,Canberra Permanent,1333,738,173,36307,2310
+CT,Canberra Temporary,101,52,32,11430,11006
+MP,Melbourne Permanent,5380,2291,297,438209,98772
+MT,Melbourne Temporary,1789,256,55,209415,20079
+PP,Perth Permanent,1070,837,236,310657,8887
+PT,Perth Temporary,660,71,10,1258,26
+SP,Sydney Permanent,3611,1150,250,402192,19564
+ST,Sydney Temporary,1936,226,37,14311,712
+AA,Australian Capital Territory Accession,831,205,65,7804,698
+NA,New South Wales Accession,48,6,1,568,2
+NQA,North Queensland Accession,2,1,1,10,9
+NTAC,Northern Territory Accession,174,78,14,1625,125
+QA,Queensland Accession,0,0,0,0,0
+SA,South Australia Accession,4,0,0,0,0
+TA,Tasmania Accession,78,3,0,35,0
+VA,Victoria Accession,53,6,1,41,1
+WA,Western Australia Accession,0,0,0,0,0
