@@ -238,3 +238,98 @@ def load_digitised_csv():
         for row in reader:
             print '{} - {}'.format(row[0], int(row[2]))
             db.series.update_one({'identifier': row[0]}, {'$set': {'items_digitised': int(row[2])}})
+
+
+def percentage_digitised():
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    pipeline = [
+        {'$match': {'items_described.described_number': {'$gt': 1}}},
+        {'$project': {'identifier': 1, 'title': 1, 'items_described.described_number': 1, 'items_digitised': 1, 'percent': {'$multiply': [{'$divide': ['$items_digitised', '$items_described.described_number']}, 100]}}},
+        {'$sort': {'percent': -1}}
+    ]
+    series = db.series.aggregate(pipeline)
+    return series
+
+
+def group_percentages():
+    groups = {}
+    for group in range(0, 100, 10):
+        groups[group] = 0
+    series = percentage_digitised()
+    for s in series:
+        for start in range(0, 100, 10):
+            if s['percent'] > start and s['percent'] <= start + 10:
+                groups[start] += 1
+                break
+    print groups
+
+
+def write_percentages():
+    series = percentage_digitised()
+    with open('data/series-digitised-percentages.csv', 'wb') as csv_file:
+        writer = csv.writer(csv_file)
+        for s in series:
+            writer.writerow([s['identifier'], s['title'].encode('utf-8'), s['items_described']['described_number'], s['items_digitised'], s['percent']])
+
+
+def write_counts():
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    pipeline = [
+        {'$match': {'items_described.described_number': {'$gt': 1}}},
+        {'$project': {'identifier': 1, 'items_described.described_number': 1, 'items_digitised': 1, 'percent': {'$multiply': [{'$divide': ['$items_digitised', '$items_described.described_number']}, 100]}}},
+        {'$group': {'_id': {'described': '$items_described.described_number', 'percent': '$percent'}, 'count': {'$sum': 1}}}
+    ]
+    series = db.series.aggregate(pipeline)
+    with open('data/series-digitised-counts.csv', 'wb') as csv_file:
+        writer = csv.writer(csv_file)
+        for s in series:
+            writer.writerow([s['_id']['described'], s['_id']['percent'], s['count']])
+
+
+def prefix_counts():
+    prefixes = []
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    with open('data/series_prefixes.csv', 'rb') as csv_file:
+        reader = csv.reader(csv_file)
+        for row in reader:
+            total = db.series.find({'identifier': {'$regex': '^{}[0-9]+'.format(row[1])}}).count()
+            described = db.series.find({'identifier': {'$regex': '^{}[0-9]+'.format(row[1])}, 'items_described.described_number': {'$gt': 0}}).count()
+            digitised = db.series.find({'identifier': {'$regex': '^{}[0-9]+'.format(row[1])}, 'items_digitised': {'$gt': 0}}).count()
+            pipeline = [
+                {
+                    '$match': {'identifier': {'$regex': '^{}[0-9]+'.format(row[1])}}
+                },
+                {
+                    '$group': {
+                        '_id': None,
+                        'described': {'$sum': '$items_described.described_number'},
+                        'digitised': {'$sum': '$items_digitised'},
+                    }
+                }
+            ]
+            result = list(db.series.aggregate(pipeline))
+            try:
+                prefixes.append(({'prefix': row[1], 'description': row[0], 'total_series': total, 'series_with_descriptions': described, 'series_with_digitised': digitised, 'total_described': result[0]['described'], 'total_digitised': result[0]['digitised']}))
+            except IndexError:
+                prefixes.append(({'prefix': row[1], 'description': row[0], 'total_series': 0, 'series_with_descriptions': 0, 'series_with_digitised': 0, 'total_described': 0, 'total_digitised': 0}))
+    return prefixes
+
+
+def write_prefix_counts():
+    prefixes = prefix_counts()
+    with open('data/series_counts_by_prefix.csv', 'wb') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(['prefix', 'description', 'total series', 'series with descriptions', 'series with digitised items', 'total items described', 'total items digitised'])
+        for prefix in prefixes:
+            print '\n{}: {}'.format(prefix['prefix'], prefix['description'])
+            print '    {:40}{}'.format('Total series:', prefix['total_series'])
+            print '    {:40}{} ({:.1%} of series)'.format('Series with item descriptions:', prefix['series_with_descriptions'], float(prefix['series_with_descriptions']) / prefix['total_series'] if prefix['total_series'] else 0)
+            print '    {:40}{} ({:.1%} of series with descriptions)'.format('Series with digitised items:', prefix['series_with_digitised'], float(prefix['series_with_digitised']) / prefix['series_with_descriptions'] if prefix['series_with_descriptions'] else 0)
+            print '    {:40}{}'.format('Total items described:', prefix['total_described'])
+            print '    {:40}{} ({:.1%} of items described)'.format('Total items digitised:', prefix['total_digitised'], float(prefix['total_digitised']) / prefix['total_described'] if prefix['total_described'] else 0)
+            writer.writerow([prefix['prefix'], prefix['description'], prefix['series_with_descriptions'], prefix['series_with_digitised'], prefix['total_described'], prefix['total_digitised']])
+
+

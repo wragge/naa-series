@@ -1,0 +1,258 @@
+A: National Archives of Australia, National Office – ACT
+    Total series:                           13180
+    Series with item descriptions:          5983 (45.4% of series)
+    Series with digitised items:            1776 (29.7% of series with descriptions)
+    Total items described:                  4514866
+    Total items digitised:                  583023 (12.9% of items described)
+
+AWM: Australian War Memorial
+    Total series:                           384
+    Series with item descriptions:          348 (90.6% of series)
+    Series with digitised items:            13 (3.7% of series with descriptions)
+    Total items described:                  248349
+    Total items digitised:                  18 (0.0% of items described)
+
+B: National Archives of Australia, Victoria
+    Total series:                           6238
+    Series with item descriptions:          1457 (23.4% of series)
+    Series with digitised items:            210 (14.4% of series with descriptions)
+    Total items described:                  2212337
+    Total items digitised:                  777500 (35.1% of items described)
+
+C: National Archives of Australia, New South Wales
+    Total series:                           4205
+    Series with item descriptions:          1169 (27.8% of series)
+    Series with digitised items:            173 (14.8% of series with descriptions)
+    Total items described:                  462116
+    Total items digitised:                  19204 (4.2% of items described)
+
+D: National Archives of Australia, South Australia
+    Total series:                           4447
+    Series with item descriptions:          750 (16.9% of series)
+    Series with digitised items:            164 (21.9% of series with descriptions)
+    Total items described:                  553735
+    Total items digitised:                  43743 (7.9% of items described)
+
+E: National Archives of Australia, Northern Territory
+    Total series:                           1458
+    Series with item descriptions:          488 (33.5% of series)
+    Series with digitised items:            112 (23.0% of series with descriptions)
+    Total items described:                  69089
+    Total items digitised:                  6731 (9.7% of items described)
+
+J: National Archives of Australia, Queensland (including North Queensland)
+    Total series:                           2695
+    Series with item descriptions:          565 (21.0% of series)
+    Series with digitised items:            164 (29.0% of series with descriptions)
+    Total items described:                  341795
+    Total items digitised:                  51405 (15.0% of items described)
+
+K: National Archives of Australia, Western Australia
+    Total series:                           1346
+    Series with item descriptions:          493 (36.6% of series)
+    Series with digitised items:            121 (24.5% of series with descriptions)
+    Total items described:                  276862
+    Total items digitised:                  34766 (12.6% of items described)
+
+M: Personal and corporate records (registered by National Archives of Australia, all offices)
+    Total series:                           4414
+    Series with item descriptions:          1406 (31.9% of series)
+    Series with digitised items:            357 (25.4% of series with descriptions)
+    Total items described:                  92520
+    Total items digitised:                  19842 (21.4% of items described)
+
+N: Christmas Island Administration records
+    Total series:                           31
+    Series with item descriptions:          27 (87.1% of series)
+    Series with digitised items:            12 (44.4% of series with descriptions)
+    Total items described:                  4059
+    Total items digitised:                  81 (2.0% of items described)
+
+P: National Archives of Australia, Tasmania
+    Total series:                           2568
+    Series with item descriptions:          543 (21.1% of series)
+    Series with digitised items:            78 (14.4% of series with descriptions)
+    Total items described:                  180423
+    Total items digitised:                  26457 (14.7% of items described)
+
+R: Intergovernmental records (registered by National Archives of Australia, all offices)
+    Total series:                           214
+    Series with item descriptions:          92 (43.0% of series)
+    Series with digitised items:            19 (20.7% of series with descriptions)
+    Total items described:                  10136
+    Total items digitised:                  7770 (76.7% of items described)
+
+F: Northern Territory Administration Records (allocation from this prefix has ceased)
+    Total series:                           1158
+    Series with item descriptions:          261 (22.5% of series)
+    Series with digitised items:            32 (12.3% of series with descriptions)
+    Total items described:                  24893
+    Total items digitised:                  1040 (4.2% of items described)
+
+G: Papua and New Guinea Administration records (to be allocated by the National Office)
+    Total series:                           273
+    Series with item descriptions:          269 (98.5% of series)
+    Series with digitised items:            2 (0.7% of series with descriptions)
+    Total items described:                  2433
+    Total items digitised:                  2 (0.1% of items described)
+
+H: Norfolk Island Administration records (allocation from this prefix has ceased)
+    Total series:                           5
+    Series with item descriptions:          1 (20.0% of series)
+    Series with digitised items:            0 (0.0% of series with descriptions)
+    Total items described:                  1
+    Total items digitised:                  0 (0.0% of items described)
+
+O: Territorial Personal Archives, Northern Territory (allocation from this prefix has ceased)
+    Total series:                           17
+    Series with item descriptions:          2 (11.8% of series)
+    Series with digitised items:            1 (50.0% of series with descriptions)
+    Total items described:                  2
+    Total items digitised:                  1 (50.0% of items described)
+
+AP: Adelaide Permanent
+    Total series:                           1966
+    Series with item descriptions:          288 (14.6% of series)
+    Series with digitised items:            66 (22.9% of series with descriptions)
+    Total items described:                  43978
+    Total items digitised:                  981 (2.2% of items described)
+
+AT: Adelaide Temporary
+    Total series:                           549
+    Series with item descriptions:          38 (6.9% of series)
+    Series with digitised items:            5 (13.2% of series with descriptions)
+    Total items described:                  17367
+    Total items digitised:                  23 (0.1% of items described)
+
+BP: Brisbane Permanent
+    Total series:                           960
+    Series with item descriptions:          588 (61.3% of series)
+    Series with digitised items:            142 (24.1% of series with descriptions)
+    Total items described:                  236586
+    Total items digitised:                  35105 (14.8% of items described)
+
+BT: Brisbane Temporary
+    Total series:                           533
+    Series with item descriptions:          47 (8.8% of series)
+    Series with digitised items:            15 (31.9% of series with descriptions)
+    Total items described:                  1805
+    Total items digitised:                  84 (4.7% of items described)
+
+CP: Canberra Permanent
+    Total series:                           1333
+    Series with item descriptions:          738 (55.4% of series)
+    Series with digitised items:            173 (23.4% of series with descriptions)
+    Total items described:                  36307
+    Total items digitised:                  2310 (6.4% of items described)
+
+CT: Canberra Temporary
+    Total series:                           101
+    Series with item descriptions:          52 (51.5% of series)
+    Series with digitised items:            32 (61.5% of series with descriptions)
+    Total items described:                  11430
+    Total items digitised:                  11006 (96.3% of items described)
+
+MP: Melbourne Permanent
+    Total series:                           5380
+    Series with item descriptions:          2291 (42.6% of series)
+    Series with digitised items:            297 (13.0% of series with descriptions)
+    Total items described:                  438209
+    Total items digitised:                  98772 (22.5% of items described)
+
+MT: Melbourne Temporary
+    Total series:                           1789
+    Series with item descriptions:          256 (14.3% of series)
+    Series with digitised items:            55 (21.5% of series with descriptions)
+    Total items described:                  209415
+    Total items digitised:                  20079 (9.6% of items described)
+
+PP: Perth Permanent
+    Total series:                           1070
+    Series with item descriptions:          837 (78.2% of series)
+    Series with digitised items:            236 (28.2% of series with descriptions)
+    Total items described:                  310657
+    Total items digitised:                  8887 (2.9% of items described)
+
+PT: Perth Temporary
+    Total series:                           660
+    Series with item descriptions:          71 (10.8% of series)
+    Series with digitised items:            10 (14.1% of series with descriptions)
+    Total items described:                  1258
+    Total items digitised:                  26 (2.1% of items described)
+
+SP: Sydney Permanent
+    Total series:                           3611
+    Series with item descriptions:          1150 (31.8% of series)
+    Series with digitised items:            250 (21.7% of series with descriptions)
+    Total items described:                  402192
+    Total items digitised:                  19564 (4.9% of items described)
+
+ST: Sydney Temporary
+    Total series:                           1936
+    Series with item descriptions:          226 (11.7% of series)
+    Series with digitised items:            37 (16.4% of series with descriptions)
+    Total items described:                  14311
+    Total items digitised:                  712 (5.0% of items described)
+
+AA: Australian Capital Territory Accession
+    Total series:                           831
+    Series with item descriptions:          205 (24.7% of series)
+    Series with digitised items:            65 (31.7% of series with descriptions)
+    Total items described:                  7804
+    Total items digitised:                  698 (8.9% of items described)
+
+NA: New South Wales Accession
+    Total series:                           48
+    Series with item descriptions:          6 (12.5% of series)
+    Series with digitised items:            1 (16.7% of series with descriptions)
+    Total items described:                  568
+    Total items digitised:                  2 (0.4% of items described)
+
+NQA: North Queensland Accession
+    Total series:                           2
+    Series with item descriptions:          1 (50.0% of series)
+    Series with digitised items:            1 (100.0% of series with descriptions)
+    Total items described:                  10
+    Total items digitised:                  9 (90.0% of items described)
+
+NTAC: Northern Territory Accession
+    Total series:                           174
+    Series with item descriptions:          78 (44.8% of series)
+    Series with digitised items:            14 (17.9% of series with descriptions)
+    Total items described:                  1625
+    Total items digitised:                  125 (7.7% of items described)
+
+QA: Queensland Accession
+    Total series:                           0
+    Series with item descriptions:          0 (0.0% of series)
+    Series with digitised items:            0 (0.0% of series with descriptions)
+    Total items described:                  0
+    Total items digitised:                  0 (0.0% of items described)
+
+SA: South Australia Accession
+    Total series:                           4
+    Series with item descriptions:          0 (0.0% of series)
+    Series with digitised items:            0 (0.0% of series with descriptions)
+    Total items described:                  0
+    Total items digitised:                  0 (0.0% of items described)
+
+TA: Tasmania Accession
+    Total series:                           78
+    Series with item descriptions:          3 (3.8% of series)
+    Series with digitised items:            0 (0.0% of series with descriptions)
+    Total items described:                  35
+    Total items digitised:                  0 (0.0% of items described)
+
+VA: Victoria Accession
+    Total series:                           53
+    Series with item descriptions:          6 (11.3% of series)
+    Series with digitised items:            1 (16.7% of series with descriptions)
+    Total items described:                  41
+    Total items digitised:                  1 (2.4% of items described)
+
+WA: Western Australia Accession
+    Total series:                           0
+    Series with item descriptions:          0 (0.0% of series)
+    Series with digitised items:            0 (0.0% of series with descriptions)
+    Total items described:                  0
+    Total items digitised:                  0 (0.0% of items described)

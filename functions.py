@@ -3,6 +3,8 @@ import requests
 import re
 import pprint
 import json
+from pymongo import MongoClient
+from credentials import MONGO_SERIES_URL
 
 
 def harvest_functions():
@@ -64,3 +66,30 @@ def harvest_functions():
     with open('data/functions.json', 'wb') as json_file:
         json.dump(functions, json_file, indent=4)
 
+
+def load_functions():
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    with open('data/functions.json', 'rb') as json_file:
+        functions = json.load(json_file)
+        db.functionhierarchy.insert_many(functions)
+        for function in functions:
+            db.functions.insert_one({'name': function['name'], 'level': 0})
+            if 'narrower' in function:
+                for subf in function['narrower']:
+                    db.functions.insert_one({'name': subf['name'], 'level': 1, 'parent': function['name']})
+                    if 'narrower' in subf:
+                        for subsubf in subf['narrower']:
+                            db.functions.insert_one({'name': subsubf, 'level': 2, 'parent': subf['name']})
+
+
+def check_duplicates():
+    '''
+    Look to see if agencies are duplicated across levels in function hierarchy.
+    '''
+    series = []
+    duplicates = 0
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    for func in db.functionhierarchy.find():
+        pass
