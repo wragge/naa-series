@@ -1,0 +1,1999 @@
+[
+    {
+        "term": "Business management ", 
+        "narrower": [
+            {
+                "term": "Association registration"
+            }, 
+            {
+                "term": "Business process auditing"
+            }, 
+            {
+                "term": "Business registration", 
+                "narrower": [
+                    {
+                        "term": "Business permits and licences"
+                    }
+                ]
+            }, 
+            {
+                "term": "Business sponsorship"
+            }, 
+            {
+                "term": "Consumer protection"
+            }, 
+            {
+                "term": "Fair trading compliance", 
+                "narrower": [
+                    {
+                        "term": "Prices surveillance"
+                    }, 
+                    {
+                        "term": "Product safety"
+                    }, 
+                    {
+                        "term": "Trade practices compliance"
+                    }
+                ]
+            }, 
+            {
+                "term": "Financial institutions regulation", 
+                "narrower": [
+                    {
+                        "term": "Authorised deposit taking institutions"
+                    }
+                ]
+            }, 
+            {
+                "term": "Government procurement regulation"
+            }, 
+            {
+                "term": "Indigenous enterprise development"
+            }, 
+            {
+                "term": "Industry assistance schemes"
+            }, 
+            {
+                "term": "Insurance regulation", 
+                "narrower": [
+                    {
+                        "term": "General insurance"
+                    }, 
+                    {
+                        "term": "Life insurance"
+                    }
+                ]
+            }, 
+            {
+                "term": "Small business services", 
+                "narrower": [
+                    {
+                        "term": "Small business advocacy"
+                    }, 
+                    {
+                        "term": "Small business development"
+                    }
+                ]
+            }, 
+            {
+                "term": "Stock market regulation"
+            }
+        ]
+    }, 
+    {
+        "term": "Civic infrastructure", 
+        "narrower": [
+            {
+                "term": "Civic management", 
+                "narrower": [
+                    {
+                        "term": "Architectural services"
+                    }, 
+                    {
+                        "term": "Building approval services"
+                    }, 
+                    {
+                        "term": "Building regulations and standards"
+                    }, 
+                    {
+                        "term": "Engineering services"
+                    }, 
+                    {
+                        "term": "Town planning"
+                    }
+                ]
+            }, 
+            {
+                "term": "Energy supply"
+            }, 
+            {
+                "term": "Integrated service planning"
+            }, 
+            {
+                "term": "Public housing ", 
+                "narrower": [
+                    {
+                        "term": "Public housing construction"
+                    }, 
+                    {
+                        "term": "Public housing design"
+                    }, 
+                    {
+                        "term": "Public housing maintenance"
+                    }
+                ]
+            }, 
+            {
+                "term": "Public land management", 
+                "narrower": [
+                    {
+                        "term": "Burial ground management"
+                    }, 
+                    {
+                        "term": "Cultural centre management"
+                    }, 
+                    {
+                        "term": "Garden management"
+                    }, 
+                    {
+                        "term": "Memorial maintenance"
+                    }, 
+                    {
+                        "term": "Recreational park management"
+                    }, 
+                    {
+                        "term": "Sporting facilities management"
+                    }
+                ]
+            }, 
+            {
+                "term": "Regional development"
+            }, 
+            {
+                "term": "Transport network maintenance"
+            }, 
+            {
+                "term": "Waste management"
+            }
+        ]
+    }, 
+    {
+        "term": "Communications", 
+        "narrower": [
+            {
+                "term": "Broadcasting", 
+                "narrower": [
+                    {
+                        "term": "Broadcasting standards"
+                    }, 
+                    {
+                        "term": "Radio broadcasting"
+                    }, 
+                    {
+                        "term": "Television broadcasting"
+                    }
+                ]
+            }, 
+            {
+                "term": "Call centre administration"
+            }, 
+            {
+                "term": "Electronic commerce", 
+                "narrower": [
+                    {
+                        "term": "Authentication"
+                    }, 
+                    {
+                        "term": "Online transaction standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Government media", 
+                "narrower": [
+                    {
+                        "term": "Advertising standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Information management standards", 
+                "narrower": [
+                    {
+                        "term": "Data management"
+                    }, 
+                    {
+                        "term": "Information dissemination"
+                    }, 
+                    {
+                        "term": "Information technology standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Media ownership regulation"
+            }, 
+            {
+                "term": "Postal services", 
+                "narrower": [
+                    {
+                        "term": "Courier services"
+                    }, 
+                    {
+                        "term": "Electronic postal services"
+                    }, 
+                    {
+                        "term": "Retail postal services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Publishing", 
+                "narrower": [
+                    {
+                        "term": "Electronic publishing"
+                    }, 
+                    {
+                        "term": "Publishing standards"
+                    }, 
+                    {
+                        "term": "Website development"
+                    }
+                ]
+            }, 
+            {
+                "term": "Radio communication", 
+                "narrower": [
+                    {
+                        "term": "Apparatus licensing"
+                    }, 
+                    {
+                        "term": "Spectrum management"
+                    }
+                ]
+            }, 
+            {
+                "term": "Satellite communication"
+            }, 
+            {
+                "term": "Telecommunications", 
+                "narrower": [
+                    {
+                        "term": "Carriage service providers"
+                    }, 
+                    {
+                        "term": "Carrier licensing"
+                    }, 
+                    {
+                        "term": "Equipment licensing"
+                    }, 
+                    {
+                        "term": "Mobile telephone services"
+                    }, 
+                    {
+                        "term": "Telephone services"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Community services", 
+        "narrower": [
+            {
+                "term": "Accommodation services", 
+                "narrower": [
+                    {
+                        "term": "Defence housing"
+                    }, 
+                    {
+                        "term": "Emergency accommodation"
+                    }, 
+                    {
+                        "term": "Public housing entitlements"
+                    }, 
+                    {
+                        "term": "Refuge support"
+                    }
+                ]
+            }, 
+            {
+                "term": "Community support", 
+                "narrower": [
+                    {
+                        "term": "Adoption services"
+                    }, 
+                    {
+                        "term": "Aged care services"
+                    }, 
+                    {
+                        "term": "Child and youth support"
+                    }, 
+                    {
+                        "term": "Childcare services"
+                    }, 
+                    {
+                        "term": "Defence community programs"
+                    }, 
+                    {
+                        "term": "Family reunion programs"
+                    }, 
+                    {
+                        "term": "Indigenous welfare programs"
+                    }, 
+                    {
+                        "term": "Veteran entitlements"
+                    }
+                ]
+            }, 
+            {
+                "term": "Community transport", 
+                "narrower": [
+                    {
+                        "term": "Transport access schemes"
+                    }
+                ]
+            }, 
+            {
+                "term": "Counselling services"
+            }, 
+            {
+                "term": "Emergency services", 
+                "narrower": [
+                    {
+                        "term": "Ambulance services"
+                    }, 
+                    {
+                        "term": "Emergency funding"
+                    }, 
+                    {
+                        "term": "Firefighting services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Financial assistance", 
+                "narrower": [
+                    {
+                        "term": "Benefit entitlements"
+                    }, 
+                    {
+                        "term": "Income support schemes"
+                    }, 
+                    {
+                        "term": "Pension entitlements"
+                    }, 
+                    {
+                        "term": "Rebate schemes"
+                    }
+                ]
+            }, 
+            {
+                "term": "Natural disasters", 
+                "narrower": [
+                    {
+                        "term": "Defence forces assistance"
+                    }, 
+                    {
+                        "term": "Disaster recovery"
+                    }, 
+                    {
+                        "term": "Disaster relief "
+                    }
+                ]
+            }, 
+            {
+                "term": "Rural community development"
+            }, 
+            {
+                "term": "Social justice and equity", 
+                "narrower": [
+                    {
+                        "term": "Welfare complaints services"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Cultural affairs", 
+        "narrower": [
+            {
+                "term": "Arts development", 
+                "narrower": [
+                    {
+                        "term": "Arts funding"
+                    }, 
+                    {
+                        "term": "Arts incentive schemes"
+                    }, 
+                    {
+                        "term": "Arts promotion"
+                    }
+                ]
+            }, 
+            {
+                "term": "Collection access", 
+                "narrower": [
+                    {
+                        "term": "Descriptive standards"
+                    }, 
+                    {
+                        "term": "Finding aids development"
+                    }, 
+                    {
+                        "term": "Reference services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Collection management", 
+                "narrower": [
+                    {
+                        "term": "Artifact export regulation"
+                    }, 
+                    {
+                        "term": "Collection accessioning"
+                    }, 
+                    {
+                        "term": "Collection acquisition"
+                    }, 
+                    {
+                        "term": "Collection storage"
+                    }, 
+                    {
+                        "term": "Preservation services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Collection promotion", 
+                "narrower": [
+                    {
+                        "term": "Exhibitions programs"
+                    }, 
+                    {
+                        "term": "Publicity programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Cultural awards and scholarships"
+            }, 
+            {
+                "term": "Cultural festivals"
+            }, 
+            {
+                "term": "Cultural gifts programs"
+            }, 
+            {
+                "term": "Indigenous cultural heritage", 
+                "narrower": [
+                    {
+                        "term": "Sacred object protection"
+                    }
+                ]
+            }, 
+            {
+                "term": "Multicultural heritage promotion", 
+                "narrower": [
+                    {
+                        "term": "Multicultural festivals"
+                    }, 
+                    {
+                        "term": "Multicultural services "
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Defence", 
+        "narrower": [
+            {
+                "term": "Australian Defence Forces (ADF)", 
+                "narrower": [
+                    {
+                        "term": "Airforce "
+                    }, 
+                    {
+                        "term": "Army"
+                    }, 
+                    {
+                        "term": "Badges and insignia"
+                    }, 
+                    {
+                        "term": "Cadets"
+                    }, 
+                    {
+                        "term": "Defence force commands"
+                    }, 
+                    {
+                        "term": "Military bands"
+                    }, 
+                    {
+                        "term": "Navy "
+                    }, 
+                    {
+                        "term": "Reserves"
+                    }, 
+                    {
+                        "term": "Roulettes"
+                    }
+                ]
+            }, 
+            {
+                "term": "Defence estate management"
+            }, 
+            {
+                "term": "Defence force careers", 
+                "narrower": [
+                    {
+                        "term": "Defence career development "
+                    }, 
+                    {
+                        "term": "Military employment services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Emergency management", 
+                "narrower": [
+                    {
+                        "term": "Civil community assistance"
+                    }, 
+                    {
+                        "term": "Disaster support"
+                    }
+                ]
+            }, 
+            {
+                "term": "Military operations", 
+                "narrower": [
+                    {
+                        "term": "Australian theatre of war"
+                    }, 
+                    {
+                        "term": "Military exercises"
+                    }, 
+                    {
+                        "term": "Special operations"
+                    }, 
+                    {
+                        "term": "Warfare"
+                    }
+                ]
+            }, 
+            {
+                "term": "Strategic development", 
+                "narrower": [
+                    {
+                        "term": "Defence efficiency review"
+                    }, 
+                    {
+                        "term": "Defence reform program"
+                    }
+                ]
+            }, 
+            {
+                "term": "Strategic policy", 
+                "narrower": [
+                    {
+                        "term": "Strategic decisions"
+                    }, 
+                    {
+                        "term": "Strategic planning"
+                    }
+                ]
+            }, 
+            {
+                "term": "Strategic support", 
+                "narrower": [
+                    {
+                        "term": "Capital equipment programs"
+                    }, 
+                    {
+                        "term": "Defence industry"
+                    }, 
+                    {
+                        "term": "Logistics"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Education and training", 
+        "narrower": [
+            {
+                "term": "Arts education"
+            }, 
+            {
+                "term": "Community education", 
+                "narrower": [
+                    {
+                        "term": "Adult education programs"
+                    }, 
+                    {
+                        "term": "Adult migrant education"
+                    }, 
+                    {
+                        "term": "Road safety awareness"
+                    }
+                ]
+            }, 
+            {
+                "term": "Curriculum development"
+            }, 
+            {
+                "term": "Early childhood education", 
+                "narrower": [
+                    {
+                        "term": "Preschool education"
+                    }
+                ]
+            }, 
+            {
+                "term": "Military education and training", 
+                "narrower": [
+                    {
+                        "term": "Army reserve training"
+                    }, 
+                    {
+                        "term": "Defence college training"
+                    }
+                ]
+            }, 
+            {
+                "term": "Overseas skills recognition"
+            }, 
+            {
+                "term": "School education", 
+                "narrower": [
+                    {
+                        "term": "Discipline programs"
+                    }, 
+                    {
+                        "term": "School transport regulation"
+                    }, 
+                    {
+                        "term": "Special needs programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Tertiary education"
+            }, 
+            {
+                "term": "Vocational education", 
+                "narrower": [
+                    {
+                        "term": "Apprenticeship programs"
+                    }, 
+                    {
+                        "term": "Hospital teaching programs"
+                    }, 
+                    {
+                        "term": "Trainee programs"
+                    }, 
+                    {
+                        "term": "Workplace training"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Environment", 
+        "narrower": [
+            {
+                "term": "Built environment", 
+                "narrower": [
+                    {
+                        "term": "Building acoustics"
+                    }, 
+                    {
+                        "term": "Building preservation "
+                    }
+                ]
+            }, 
+            {
+                "term": "Conservation programs", 
+                "narrower": [
+                    {
+                        "term": "Endangered species protection"
+                    }, 
+                    {
+                        "term": "Landcare programs"
+                    }, 
+                    {
+                        "term": "Soil preservation programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Environmental impact assessment"
+            }, 
+            {
+                "term": "Historic relic protection"
+            }, 
+            {
+                "term": "Indigenous heritage conservation", 
+                "narrower": [
+                    {
+                        "term": "Sacred site protection"
+                    }
+                ]
+            }, 
+            {
+                "term": "Marine life protection programs"
+            }, 
+            {
+                "term": "Natural heritage protection", 
+                "narrower": [
+                    {
+                        "term": "National park management"
+                    }, 
+                    {
+                        "term": "Nature reserve management"
+                    }, 
+                    {
+                        "term": "Wilderness area management"
+                    }, 
+                    {
+                        "term": "Wildlife sanctuary management"
+                    }
+                ]
+            }, 
+            {
+                "term": "Pollutant prevention programs"
+            }, 
+            {
+                "term": "World heritage listings"
+            }
+        ]
+    }, 
+    {
+        "term": "Finance management", 
+        "narrower": [
+            {
+                "term": "Commonwealth State funding"
+            }, 
+            {
+                "term": "Currency", 
+                "narrower": [
+                    {
+                        "term": "Counterfeiting"
+                    }, 
+                    {
+                        "term": "Exchange rates"
+                    }, 
+                    {
+                        "term": "Inflation"
+                    }
+                ]
+            }, 
+            {
+                "term": "Financial investment", 
+                "narrower": [
+                    {
+                        "term": "Foreign investment control"
+                    }, 
+                    {
+                        "term": "Investment scheme regulation"
+                    }
+                ]
+            }, 
+            {
+                "term": "Fiscal policy", 
+                "narrower": [
+                    {
+                        "term": "Public borrowing"
+                    }, 
+                    {
+                        "term": "Public debt"
+                    }, 
+                    {
+                        "term": "Public expenditure"
+                    }
+                ]
+            }, 
+            {
+                "term": "International monetary regulation"
+            }, 
+            {
+                "term": "Resource management", 
+                "narrower": [
+                    {
+                        "term": "Financial administration"
+                    }, 
+                    {
+                        "term": "Financial budgeting"
+                    }, 
+                    {
+                        "term": "Contract management"
+                    }
+                ]
+            }, 
+            {
+                "term": "Retirement income", 
+                "narrower": [
+                    {
+                        "term": "Asset assessment"
+                    }, 
+                    {
+                        "term": "Retirement saving"
+                    }, 
+                    {
+                        "term": "Superannuation"
+                    }
+                ]
+            }, 
+            {
+                "term": "Taxation", 
+                "narrower": [
+                    {
+                        "term": "Income assessment"
+                    }, 
+                    {
+                        "term": "Revenue raising"
+                    }, 
+                    {
+                        "term": "Taxation compliance"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Governance", 
+        "narrower": [
+            {
+                "term": "Census collection", 
+                "narrower": [
+                    {
+                        "term": "Demographic surveys"
+                    }, 
+                    {
+                        "term": "Household census"
+                    }, 
+                    {
+                        "term": "Population distribution analysis"
+                    }
+                ]
+            }, 
+            {
+                "term": "Chamber support", 
+                "narrower": [
+                    {
+                        "term": "Hansard services"
+                    }, 
+                    {
+                        "term": "Parliamentary papers"
+                    }, 
+                    {
+                        "term": "Tabling of official documents"
+                    }
+                ]
+            }, 
+            {
+                "term": "Civic celebrations"
+            }, 
+            {
+                "term": "Committee and member support"
+            }, 
+            {
+                "term": "Constitutional matters", 
+                "narrower": [
+                    {
+                        "term": "Constitutional conventions"
+                    }, 
+                    {
+                        "term": "Constitutional referenda"
+                    }
+                ]
+            }, 
+            {
+                "term": "Electoral matters", 
+                "narrower": [
+                    {
+                        "term": "Declaration of interests"
+                    }, 
+                    {
+                        "term": "Election campaigning"
+                    }, 
+                    {
+                        "term": "Electoral boundary assessment"
+                    }
+                ]
+            }, 
+            {
+                "term": "Honours and award programs"
+            }, 
+            {
+                "term": "Indigenous reconciliation"
+            }, 
+            {
+                "term": "Intergovernment relations", 
+                "narrower": [
+                    {
+                        "term": "Cross-border cooperation"
+                    }, 
+                    {
+                        "term": "Federation celebrations"
+                    }, 
+                    {
+                        "term": "Intergovernment policy dissemination"
+                    }
+                ]
+            }, 
+            {
+                "term": "Legislative drafting", 
+                "narrower": [
+                    {
+                        "term": "Draft Bill amendment process"
+                    }, 
+                    {
+                        "term": "Legislation review"
+                    }, 
+                    {
+                        "term": "Preparation of legislative regulations"
+                    }
+                ]
+            }, 
+            {
+                "term": "Official protocol", 
+                "narrower": [
+                    {
+                        "term": "Ceremonial representation"
+                    }, 
+                    {
+                        "term": "Head of Government protocol"
+                    }, 
+                    {
+                        "term": "Official establishment management"
+                    }, 
+                    {
+                        "term": "Official hospitality"
+                    }, 
+                    {
+                        "term": "Official visits"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Health care", 
+        "narrower": [
+            {
+                "term": "Community health services", 
+                "narrower": [
+                    {
+                        "term": "Clinical health services"
+                    }, 
+                    {
+                        "term": "Health counselling"
+                    }, 
+                    {
+                        "term": "Health promotion"
+                    }, 
+                    {
+                        "term": "Primary health care"
+                    }
+                ]
+            }, 
+            {
+                "term": "Health insurance schemes"
+            }, 
+            {
+                "term": "Health protocol administration", 
+                "narrower": [
+                    {
+                        "term": "Drugs and poisons regulation"
+                    }, 
+                    {
+                        "term": "Food hygiene regulation"
+                    }, 
+                    {
+                        "term": "Practitioner discipline"
+                    }, 
+                    {
+                        "term": "Practitioner registration"
+                    }
+                ]
+            }, 
+            {
+                "term": "Hospital services", 
+                "narrower": [
+                    {
+                        "term": "Hospital administration"
+                    }, 
+                    {
+                        "term": "Patient care"
+                    }, 
+                    {
+                        "term": "Pharmaceutical and drug support"
+                    }
+                ]
+            }, 
+            {
+                "term": "Indigenous health services"
+            }, 
+            {
+                "term": "Medical research", 
+                "narrower": [
+                    {
+                        "term": "Ethical compliance"
+                    }, 
+                    {
+                        "term": "Medical aids regulation"
+                    }, 
+                    {
+                        "term": "Medical research funding"
+                    }, 
+                    {
+                        "term": "National referral laboratory services"
+                    }, 
+                    {
+                        "term": "Population-based research"
+                    }
+                ]
+            }, 
+            {
+                "term": "Public health services", 
+                "narrower": [
+                    {
+                        "term": "Epidemiology"
+                    }, 
+                    {
+                        "term": "Health disaster preparedness"
+                    }, 
+                    {
+                        "term": "Health hazard prevention"
+                    }, 
+                    {
+                        "term": "Health risk management"
+                    }, 
+                    {
+                        "term": "Medical quarantine services"
+                    }, 
+                    {
+                        "term": "Notifiable disease management"
+                    }
+                ]
+            }, 
+            {
+                "term": "Special needs services", 
+                "narrower": [
+                    {
+                        "term": "Child and adolescent health services"
+                    }, 
+                    {
+                        "term": "Dental health services"
+                    }, 
+                    {
+                        "term": "Independent living services"
+                    }, 
+                    {
+                        "term": "Mental health services"
+                    }, 
+                    {
+                        "term": "Residential services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Veteran health services"
+            }
+        ]
+    }, 
+    {
+        "term": "Immigration", 
+        "narrower": [
+            {
+                "term": "Citizenship", 
+                "narrower": [
+                    {
+                        "term": "Naturalisation assessment"
+                    }, 
+                    {
+                        "term": "Presentation arrangements"
+                    }
+                ]
+            }, 
+            {
+                "term": "Deportation"
+            }, 
+            {
+                "term": "Detention programs"
+            }, 
+            {
+                "term": "Migrant services", 
+                "narrower": [
+                    {
+                        "term": "Interpreter services"
+                    }, 
+                    {
+                        "term": "Language services"
+                    }, 
+                    {
+                        "term": "Migrant accommodation services"
+                    }, 
+                    {
+                        "term": "Migrant settlement programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Refugee services"
+            }, 
+            {
+                "term": "Travel authorisation", 
+                "narrower": [
+                    {
+                        "term": "Permanent entry arrangements"
+                    }, 
+                    {
+                        "term": "Temporary entry arrangements"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "International relations", 
+        "narrower": [
+            {
+                "term": "Consular services"
+            }, 
+            {
+                "term": "Diplomatic missions"
+            }, 
+            {
+                "term": "International affairs", 
+                "narrower": [
+                    {
+                        "term": "Disarmament and arms control"
+                    }, 
+                    {
+                        "term": "International expositions"
+                    }, 
+                    {
+                        "term": "Nuclear safeguards"
+                    }
+                ]
+            }, 
+            {
+                "term": "International liaison", 
+                "narrower": [
+                    {
+                        "term": "Defence attaches"
+                    }, 
+                    {
+                        "term": "Defence cooperation programs "
+                    }, 
+                    {
+                        "term": "Defence personnel exchanges"
+                    }, 
+                    {
+                        "term": "Military advisors"
+                    }
+                ]
+            }, 
+            {
+                "term": "International treaty participation", 
+                "narrower": [
+                    {
+                        "term": "Bilateral treaties"
+                    }, 
+                    {
+                        "term": "Multilateral treaties"
+                    }
+                ]
+            }, 
+            {
+                "term": "Overseas aid programs", 
+                "narrower": [
+                    {
+                        "term": "Development assistance programs"
+                    }, 
+                    {
+                        "term": "Overseas student scholarship programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Overseas promotion", 
+                "narrower": [
+                    {
+                        "term": "International cultural exchanges"
+                    }
+                ]
+            }, 
+            {
+                "term": "Passport services"
+            }
+        ]
+    }, 
+    {
+        "term": "Justice administration", 
+        "narrower": [
+            {
+                "term": "Administrative law", 
+                "narrower": [
+                    {
+                        "term": "Administrative decision appeal"
+                    }, 
+                    {
+                        "term": "Administrative decision review"
+                    }, 
+                    {
+                        "term": "Censorship standards"
+                    }, 
+                    {
+                        "term": "Copyright regulation"
+                    }, 
+                    {
+                        "term": "Recordkeeping standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Associations and corporate law", 
+                "narrower": [
+                    {
+                        "term": "Bankruptcy proceedings"
+                    }, 
+                    {
+                        "term": "Merger regulation"
+                    }
+                ]
+            }, 
+            {
+                "term": "Civil law", 
+                "narrower": [
+                    {
+                        "term": "Birth, death and marriage registration"
+                    }, 
+                    {
+                        "term": "Conveyancing"
+                    }, 
+                    {
+                        "term": "Family law proceedings"
+                    }, 
+                    {
+                        "term": "Probate applications"
+                    }, 
+                    {
+                        "term": "Dispute mediation programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Commissions of inquiry"
+            }, 
+            {
+                "term": "Coronial law"
+            }, 
+            {
+                "term": "Court reporting"
+            }, 
+            {
+                "term": "Criminal law"
+            }, 
+            {
+                "term": "Human rights obligations"
+            }, 
+            {
+                "term": "Juvenile justice"
+            }, 
+            {
+                "term": "Legal aid services"
+            }, 
+            {
+                "term": "Local laws and ordinances", 
+                "narrower": [
+                    {
+                        "term": "Permits and licence applications"
+                    }
+                ]
+            }, 
+            {
+                "term": "Native title claims", 
+                "narrower": [
+                    {
+                        "term": "Applications for native title"
+                    }, 
+                    {
+                        "term": "Litigation processes"
+                    }, 
+                    {
+                        "term": "Mediation programs"
+                    }, 
+                    {
+                        "term": "Settlement negotiations"
+                    }
+                ]
+            }, 
+            {
+                "term": "Privacy guideline monitoring"
+            }, 
+            {
+                "term": "Prosecution services"
+            }
+        ]
+    }, 
+    {
+        "term": "Maritime services", 
+        "narrower": [
+            {
+                "term": "Coastal pilotage", 
+                "narrower": [
+                    {
+                        "term": "Vessel piloting"
+                    }
+                ]
+            }, 
+            {
+                "term": "Harbour management"
+            }, 
+            {
+                "term": "Marina management"
+            }, 
+            {
+                "term": "Navigation", 
+                "narrower": [
+                    {
+                        "term": "Charting sea lanes"
+                    }, 
+                    {
+                        "term": "Lightstation maintenance"
+                    }, 
+                    {
+                        "term": "Navigation systems development"
+                    }
+                ]
+            }, 
+            {
+                "term": "Port regulation"
+            }, 
+            {
+                "term": "Search and rescue", 
+                "narrower": [
+                    {
+                        "term": "Rescue coordination"
+                    }, 
+                    {
+                        "term": "Search technology development"
+                    }
+                ]
+            }, 
+            {
+                "term": "Ship personnel", 
+                "narrower": [
+                    {
+                        "term": "Personal safety standards"
+                    }, 
+                    {
+                        "term": "Pilot licensing"
+                    }
+                ]
+            }, 
+            {
+                "term": "Ship safety", 
+                "narrower": [
+                    {
+                        "term": "Cargo control"
+                    }, 
+                    {
+                        "term": "Ship commissioning"
+                    }, 
+                    {
+                        "term": "Ship inspection"
+                    }, 
+                    {
+                        "term": "Unseaworthiness"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Primary industries", 
+        "narrower": [
+            {
+                "term": "Chemical and pesticide regulation"
+            }, 
+            {
+                "term": "Climate information services"
+            }, 
+            {
+                "term": "Marine and rural regulation ", 
+                "narrower": [
+                    {
+                        "term": "Agricultural industry"
+                    }, 
+                    {
+                        "term": "Fisheries industry"
+                    }, 
+                    {
+                        "term": "Forestry industry"
+                    }, 
+                    {
+                        "term": "Quarantine"
+                    }
+                ]
+            }, 
+            {
+                "term": "Marine and rural support", 
+                "narrower": [
+                    {
+                        "term": "Aquacultural industry"
+                    }, 
+                    {
+                        "term": "Food quality assurance"
+                    }, 
+                    {
+                        "term": "Horticultural industry"
+                    }, 
+                    {
+                        "term": "Pastoral industry"
+                    }, 
+                    {
+                        "term": "Silvicultural industry"
+                    }
+                ]
+            }, 
+            {
+                "term": " ", 
+                "narrower": [
+                    {
+                        "term": "Viticultural industry"
+                    }
+                ]
+            }, 
+            {
+                "term": "Rural field day promotion"
+            }, 
+            {
+                "term": "Rural partnership programs"
+            }
+        ]
+    }, 
+    {
+        "term": "Resources", 
+        "narrower": [
+            {
+                "term": "Crown land administration"
+            }, 
+            {
+                "term": "Energy resources", 
+                "narrower": [
+                    {
+                        "term": "Fossil fuel management"
+                    }, 
+                    {
+                        "term": "Renewable energy development"
+                    }
+                ]
+            }, 
+            {
+                "term": "Land use planning"
+            }, 
+            {
+                "term": "Land use zoning", 
+                "narrower": [
+                    {
+                        "term": "Commercial zoning"
+                    }, 
+                    {
+                        "term": "Public land zoning"
+                    }, 
+                    {
+                        "term": "Residential zoning"
+                    }
+                ]
+            }, 
+            {
+                "term": "Land valuation"
+            }, 
+            {
+                "term": "Mineral resources", 
+                "narrower": [
+                    {
+                        "term": "Land rehabilitation programs"
+                    }, 
+                    {
+                        "term": "Mining regulations"
+                    }
+                ]
+            }, 
+            {
+                "term": "Pollution emission control"
+            }, 
+            {
+                "term": "Water resources", 
+                "narrower": [
+                    {
+                        "term": "Water conservation plans"
+                    }, 
+                    {
+                        "term": "Water quality monitoring"
+                    }, 
+                    {
+                        "term": "Water usage management"
+                    }, 
+                    {
+                        "term": "Waterway management"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Science", 
+        "narrower": [
+            {
+                "term": "Agricultural sciences"
+            }, 
+            {
+                "term": "Animal and veterinary sciences"
+            }, 
+            {
+                "term": "Applied sciences", 
+                "narrower": [
+                    {
+                        "term": "Engineering and technology sciences"
+                    }, 
+                    {
+                        "term": "Weights and measures standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Biological sciences", 
+                "narrower": [
+                    {
+                        "term": "Biochemistry "
+                    }, 
+                    {
+                        "term": "Biodiversity preservation"
+                    }, 
+                    {
+                        "term": "Biotechnology development"
+                    }, 
+                    {
+                        "term": "Botany"
+                    }, 
+                    {
+                        "term": "Entomology"
+                    }, 
+                    {
+                        "term": "Genetic engineering"
+                    }, 
+                    {
+                        "term": "Physiology"
+                    }
+                ]
+            }, 
+            {
+                "term": "Earth sciences", 
+                "narrower": [
+                    {
+                        "term": "Atmospheric sciences"
+                    }, 
+                    {
+                        "term": "Hydrology"
+                    }, 
+                    {
+                        "term": "Mineral exploration"
+                    }, 
+                    {
+                        "term": "Oceanography"
+                    }, 
+                    {
+                        "term": "Seismography"
+                    }
+                ]
+            }, 
+            {
+                "term": "Mathematical sciences"
+            }, 
+            {
+                "term": "Medical and health sciences"
+            }, 
+            {
+                "term": "Physical sciences", 
+                "narrower": [
+                    {
+                        "term": "Astronomical sciences"
+                    }, 
+                    {
+                        "term": "Atomic and molecular sciences"
+                    }, 
+                    {
+                        "term": "Nuclear sciences"
+                    }
+                ]
+            }, 
+            {
+                "term": "Spatial information research"
+            }
+        ]
+    }, 
+    {
+        "term": "Security ", 
+        "narrower": [
+            {
+                "term": "Corrective services", 
+                "narrower": [
+                    {
+                        "term": "Community-based corrections"
+                    }, 
+                    {
+                        "term": "Detention centre management"
+                    }
+                ]
+            }, 
+            {
+                "term": "External security", 
+                "narrower": [
+                    {
+                        "term": "International security liaison"
+                    }, 
+                    {
+                        "term": "Peacekeeping forces"
+                    }
+                ]
+            }, 
+            {
+                "term": "Information security", 
+                "narrower": [
+                    {
+                        "term": "Data security standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Intelligence", 
+                "narrower": [
+                    {
+                        "term": "Forensic analysis"
+                    }, 
+                    {
+                        "term": "Intelligence liaison"
+                    }, 
+                    {
+                        "term": "Intelligence support"
+                    }
+                ]
+            }, 
+            {
+                "term": "Law enforcement", 
+                "narrower": [
+                    {
+                        "term": "Community policing"
+                    }, 
+                    {
+                        "term": "Criminology"
+                    }, 
+                    {
+                        "term": "Police administration"
+                    }, 
+                    {
+                        "term": "Protective services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Community protection", 
+                "narrower": [
+                    {
+                        "term": "Coastal surveillance"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Sport and recreation", 
+        "narrower": [
+            {
+                "term": "Caravan and camping services"
+            }, 
+            {
+                "term": "Community recreational programs", 
+                "narrower": [
+                    {
+                        "term": "Gambling support services"
+                    }, 
+                    {
+                        "term": "Public fitness promotion"
+                    }, 
+                    {
+                        "term": "Social club support"
+                    }, 
+                    {
+                        "term": "Volunteer support programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Gaming industry regulation"
+            }, 
+            {
+                "term": "Sport and fitness development", 
+                "narrower": [
+                    {
+                        "term": "Athlete scholarship programs"
+                    }, 
+                    {
+                        "term": "Fundraising and donation schemes"
+                    }, 
+                    {
+                        "term": "Games administration"
+                    }, 
+                    {
+                        "term": "Games promotion"
+                    }, 
+                    {
+                        "term": "Sporting grants administration"
+                    }
+                ]
+            }, 
+            {
+                "term": "Sports drugs monitoring", 
+                "narrower": [
+                    {
+                        "term": "Doping detection research"
+                    }
+                ]
+            }, 
+            {
+                "term": "Park and reserve services", 
+                "narrower": [
+                    {
+                        "term": "Park access and permits"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "Tourism", 
+        "narrower": [
+            {
+                "term": "Tourism industry development", 
+                "narrower": [
+                    {
+                        "term": "Tourism awards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Tourist event promotion", 
+                "narrower": [
+                    {
+                        "term": "Advertising campaigns"
+                    }, 
+                    {
+                        "term": "Exhibition promotion"
+                    }, 
+                    {
+                        "term": "Trade fair promotion"
+                    }
+                ]
+            }, 
+            {
+                "term": "Travel missions"
+            }
+        ]
+    }, 
+    {
+        "term": "Trade", 
+        "narrower": [
+            {
+                "term": "Customs regulations", 
+                "narrower": [
+                    {
+                        "term": "Inspection services"
+                    }
+                ]
+            }, 
+            {
+                "term": "Export regulation ", 
+                "narrower": [
+                    {
+                        "term": "Export promotion"
+                    }, 
+                    {
+                        "term": "Prohibited export control"
+                    }
+                ]
+            }, 
+            {
+                "term": "Import regulation", 
+                "narrower": [
+                    {
+                        "term": "Tariff regulation"
+                    }, 
+                    {
+                        "term": "Prohibited import control"
+                    }
+                ]
+            }, 
+            {
+                "term": "International trade agreements"
+            }, 
+            {
+                "term": "Interstate trade agreements"
+            }, 
+            {
+                "term": "Patent registration"
+            }, 
+            {
+                "term": "Trade development programs"
+            }, 
+            {
+                "term": "Trade expositions"
+            }, 
+            {
+                "term": "Trademark registration"
+            }
+        ]
+    }, 
+    {
+        "term": "Transport", 
+        "narrower": [
+            {
+                "term": "Air transport", 
+                "narrower": [
+                    {
+                        "term": "Aircraft standards"
+                    }, 
+                    {
+                        "term": "Airport services"
+                    }, 
+                    {
+                        "term": "Air transport safety"
+                    }
+                ]
+            }, 
+            {
+                "term": "Freight movement regulation"
+            }, 
+            {
+                "term": "Passenger services"
+            }, 
+            {
+                "term": "Rail transport", 
+                "narrower": [
+                    {
+                        "term": "Rail harmonisation standards"
+                    }, 
+                    {
+                        "term": "Rail land acquisition regulation"
+                    }, 
+                    {
+                        "term": "Rail transport safety"
+                    }, 
+                    {
+                        "term": "Railway maintenance"
+                    }, 
+                    {
+                        "term": "Rolling stock regulation"
+                    }
+                ]
+            }, 
+            {
+                "term": "Road transport", 
+                "narrower": [
+                    {
+                        "term": "Driving licences administration"
+                    }, 
+                    {
+                        "term": "Road surface maintenance"
+                    }, 
+                    {
+                        "term": "Road traffic regulation"
+                    }, 
+                    {
+                        "term": "Road transport safety"
+                    }, 
+                    {
+                        "term": "Vehicle registration"
+                    }, 
+                    {
+                        "term": "Vehicle standards"
+                    }
+                ]
+            }, 
+            {
+                "term": "Transport infrastructre development"
+            }
+        ]
+    }, 
+    {
+        "term": "Workplace management", 
+        "narrower": [
+            {
+                "term": "Employment services", 
+                "narrower": [
+                    {
+                        "term": "Employment services marketing"
+                    }, 
+                    {
+                        "term": "Job placement programs"
+                    }, 
+                    {
+                        "term": "Job vacancy data management"
+                    }, 
+                    {
+                        "term": "Labour market programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Human resource development", 
+                "narrower": [
+                    {
+                        "term": "Employment conditions and safety"
+                    }, 
+                    {
+                        "term": "Recruitment programs"
+                    }, 
+                    {
+                        "term": "Termination processes"
+                    }, 
+                    {
+                        "term": "Workers compensation schemes"
+                    }, 
+                    {
+                        "term": "Workplace discrimination monitoring"
+                    }, 
+                    {
+                        "term": "Workplace equity and justice programs"
+                    }
+                ]
+            }, 
+            {
+                "term": "Income awards and conditions", 
+                "narrower": [
+                    {
+                        "term": "Award conditions"
+                    }, 
+                    {
+                        "term": "Rates of pay and salary"
+                    }, 
+                    {
+                        "term": "Remuneration review"
+                    }, 
+                    {
+                        "term": "Youth wages and allowances"
+                    }
+                ]
+            }, 
+            {
+                "term": " Workplace agreement processes", 
+                "narrower": [
+                    {
+                        "term": "Agreement dispute mediation"
+                    }, 
+                    {
+                        "term": "Certified employment conditions"
+                    }, 
+                    {
+                        "term": "Employment advocacy services"
+                    }, 
+                    {
+                        "term": "Enterprise bargaining processes"
+                    }, 
+                    {
+                        "term": "Enterprise codes of practice"
+                    }
+                ]
+            }
+        ]
+    }
+]

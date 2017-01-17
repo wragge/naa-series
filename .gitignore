@@ -2,3 +2,6 @@ rstools
 credentials.py
 *.pyc
 .DS_Store
+agift2.py
+data/agift.js
+data/agift1.csv

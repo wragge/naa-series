@@ -9,7 +9,7 @@ from credentials import MONGO_SERIES_URL
 # I'm dividing them up using a range of prefixes that can be used in wildcard searches for control symbols.
 # This can get complicated as often there's a fair bit of variability in the use of control symbols.
 C_RANGES = {
-    'A1': range(190, 194),
+    'A1': list(range(190, 194)),
     'A1200': ['L{}'.format(num) for num in range(0, 10)] + ['LE', 'LR', 'R', 1, 3],
     'A1501': ['A{}'.format(num) for num in range(0, 10)] + [1, 'W'],
     'A6135': ['K{}/'.format(num) for num in range(1, 32)] + ['K/'] + list(range(1, 10)),
