@@ -23,9 +23,11 @@ Although you can browse and search for agencies by function in RecordSearch, it'
 * [AGIFT version 2 (2005)](http://webarchive.nla.gov.au/gov/20060914004029/http://naa.gov.au///recordkeeping//gov_online/agift/summary.html)
 * [AGIFT version 3 (2015)](http://www.naa.gov.au/agift/)
 
-I've harvested the main terms from each of these version:
+I've harvested the main terms from each of these versions:
 
 * CRS Thesaurus -- [TXT](data/functions-recordsearch.txt) | [JSON](data/functions-recordsearch.json)
 * AGIFT 1  -- [TXT](data/functions-agift1.txt) | [JSON](data/functions-agift1.json)
 * AGIFT 2  -- [TXT](data/functions-agift2.txt) | [JSON](data/functions-agift2.json)
 * AGIFT 3  -- [TXT](data/functions-agift3.txt) | [JSON](data/functions-agift3.json)
+
+The code used to harvest the functions is in `functions.py`.
