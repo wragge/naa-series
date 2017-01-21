@@ -1,0 +1,216 @@
+ADMINISTRATIVE LAW
+  - Bankruptcy
+  - Censorship
+  - Consumer Affairs
+  - Copyright
+  - Human Rights
+  - Legal Aid
+  - Legal Services
+  - Ombudsman
+ADMINISTRATIVE SERVICES
+  - Freight
+  - Goods And Services
+  - Government Accommodation And Catering
+  - Property Management
+    - Acquisition
+    - Leasing
+    - Maintenance
+  - Removals
+  - Storage
+  - Valuation
+AUDIT
+CABINET
+COMMITTEES OF INQUIRY
+COMMUNICATIONS
+  - Broadcasting
+    - Radio Broadcasting
+    - Television Broadcasting
+  - Government Media
+  - Postal Services
+  - Publishing And Printing
+  - Telecommunications
+CULTURAL AFFAIRS
+  - Archives Administration
+  - Arts Development
+    - Film Production
+  - Collection Management
+  - Literature Funding
+DEFENCE
+  - Defence Administration
+  - Defence Forces
+  - Defence Industries
+    - Munitions
+    - Ordnance
+    - Shipbuilding
+  - Defence Intelligence
+  - Defence Research
+EDUCATION
+  - Curriculum Development
+  - Preschool Education
+  - Primary Education
+  - Secondary Education
+  - Student Assistance
+  - Tertiary Education
+ELECTORAL MATTERS
+ENVIRONMENT
+  - Conservation
+  - Environmental Monitoring
+  - National Heritage
+  - National Parks
+FINANCIAL MATTERS
+  - Banking
+  - Commonwealth-State Relations
+  - Corporate Affairs
+  - Currency
+  - Foreign Investment Control
+  - Home Savings Schemes
+  - Insurance
+  - Market Regulation
+  - Public Borrowing
+  - Rationing And Price Control
+  - Superannuation
+  - Taxation
+FOREIGN POLICY
+  - Government Representation Overseas
+    - Consular Services
+    - Extraditions
+  - International Relations
+  - Overseas Aid Programs
+  - Passports
+GOVERNOR-GENERAL
+HEALTH
+  - Health Services
+    - Aged Persons Services
+    - Dental Services
+    - Disability Services
+    - Hearing Services
+    - Nursing Services
+  - Hospitals And Clinics
+    - Pathology
+  - Medical Research
+  - Pharmaceuticals And Medical Aids
+  - Quarantine
+  - Rehabilitation
+INDIGENOUS AFFAIRS
+  - Indigenous Enterprises
+  - Indigenous Land Rights
+  - Indigenous Settlements
+INDUSTRIAL RELATIONS
+  - Arbitration
+  - Compensation Schemes
+  - Employment
+    - Labour Market Programs
+    - Trade Skills Assessment
+    - Vocational Training Schemes
+  - National Service
+  - Occupational Health And Safety
+  - Trade Union Training
+JUSTICE ADMINISTRATION
+  - Court Reporting
+  - Family Law
+  - Federal Law
+  - Supreme Law
+LAW ENFORCEMENT
+  - Corrective Services
+  - Criminology
+  - Police Administration
+  - Protective Services
+MEMORIALS
+  - Historic Memorials
+  - War Memorials
+MIGRATION
+  - Citizenship
+  - Deportation
+  - Migrant Services
+  - Multiculturalism
+  - Passenger Entry Control
+  - Refugees
+  - Visas
+NATIONAL EVENTS
+PARLIAMENTARY MATTERS
+  - Parliamentary Chamber Administration
+  - Parliamentary Legislation
+PRIMARY INDUSTRIES
+  - Agriculture
+    - Horticulture
+    - Pastoral
+    - Viticulture
+  - Fisheries Regulation
+  - Forestry Regulation
+PUBLIC SERVICE
+  - Personnel
+    - Equity Programs
+    - Recruitment
+RECREATION
+  - National Fitness
+  - Parks
+  - Sport
+  - Tourism
+RESOURCES
+  - Energy
+  - Metals
+  - Mining
+  - Water Resources
+ROYAL COMMISSIONS
+SCIENCE
+  - Analytical Services
+  - Earth Sciences
+  - Marine Science
+  - Meteorology
+  - Scientific Research
+    - Botany
+    - Genetics
+    - Zoology
+  - Space Science
+  - Survey And Mapping
+SECONDARY INDUSTRIES
+SECURITY AND INTELLIGENCE
+  - External Security
+  - Internal Security
+  - Wartime Security
+    - Internees
+SOCIAL AND ECONOMIC RESEARCH
+SOCIAL WELFARE
+  - Community Services
+    - Child Welfare
+  - Health Insurance
+  - Pensions And Benefits
+TERRITORY ADMINISTRATION
+TRADE
+  - Bounties
+  - Customs
+    - Coastal Surveillance
+    - Excise
+    - Inspection Services
+    - Tariff Regulation
+  - Exports And Imports
+  - Expositions
+  - Patents And Trademarks
+  - Trade Practices
+  - Weights And Measures
+TRANSPORT
+  - Air Transport
+    - Air Safety
+    - Airport
+  - Land Transport
+    - Rail Transport
+    - Road Transport
+    - Road Safety
+  - Rescue Coordination
+  - Sea Transport
+    - Lighthouses
+    - Navigation
+    - Port Regulation
+    - Sea Safety
+VETERANS' AFFAIRS
+  - Repatriation
+  - Repatriation Hospitals
+WORKS
+  - Building
+  - Civil Engineering
+  - Construction
+  - Housing
+  - Public Utilities
+  - Regional Development
+  - Urban Development
+  - Waste Disposal

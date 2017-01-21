@@ -1,0 +1,740 @@
+[
+    {
+        "term": "administrative law", 
+        "narrower": [
+            {
+                "term": "bankruptcy"
+            }, 
+            {
+                "term": "censorship"
+            }, 
+            {
+                "term": "consumer affairs"
+            }, 
+            {
+                "term": "copyright"
+            }, 
+            {
+                "term": "human rights"
+            }, 
+            {
+                "term": "legal aid"
+            }, 
+            {
+                "term": "legal services"
+            }, 
+            {
+                "term": "ombudsman"
+            }
+        ]
+    }, 
+    {
+        "term": "administrative services", 
+        "narrower": [
+            {
+                "term": "freight"
+            }, 
+            {
+                "term": "goods and services"
+            }, 
+            {
+                "term": "government accommodation and catering"
+            }, 
+            {
+                "term": "property management", 
+                "narrower": [
+                    {
+                        "term": "acquisition"
+                    }, 
+                    {
+                        "term": "leasing"
+                    }, 
+                    {
+                        "term": "maintenance"
+                    }
+                ]
+            }, 
+            {
+                "term": "removals"
+            }, 
+            {
+                "term": "storage"
+            }, 
+            {
+                "term": "valuation"
+            }
+        ]
+    }, 
+    {
+        "term": "audit"
+    }, 
+    {
+        "term": "cabinet"
+    }, 
+    {
+        "term": "committees of inquiry"
+    }, 
+    {
+        "term": "communications", 
+        "narrower": [
+            {
+                "term": "broadcasting", 
+                "narrower": [
+                    {
+                        "term": "radio broadcasting"
+                    }, 
+                    {
+                        "term": "television broadcasting"
+                    }
+                ]
+            }, 
+            {
+                "term": "government media"
+            }, 
+            {
+                "term": "postal services"
+            }, 
+            {
+                "term": "publishing and printing"
+            }, 
+            {
+                "term": "telecommunications"
+            }
+        ]
+    }, 
+    {
+        "term": "cultural affairs", 
+        "narrower": [
+            {
+                "term": "archives administration"
+            }, 
+            {
+                "term": "arts development", 
+                "narrower": [
+                    {
+                        "term": "film production"
+                    }
+                ]
+            }, 
+            {
+                "term": "collection management"
+            }, 
+            {
+                "term": "literature funding"
+            }
+        ]
+    }, 
+    {
+        "term": "defence", 
+        "narrower": [
+            {
+                "term": "defence administration"
+            }, 
+            {
+                "term": "defence forces"
+            }, 
+            {
+                "term": "defence industries", 
+                "narrower": [
+                    {
+                        "term": "munitions"
+                    }, 
+                    {
+                        "term": "ordnance"
+                    }, 
+                    {
+                        "term": "shipbuilding"
+                    }
+                ]
+            }, 
+            {
+                "term": "defence intelligence"
+            }, 
+            {
+                "term": "defence research"
+            }
+        ]
+    }, 
+    {
+        "term": "education", 
+        "narrower": [
+            {
+                "term": "curriculum development"
+            }, 
+            {
+                "term": "preschool education"
+            }, 
+            {
+                "term": "primary education"
+            }, 
+            {
+                "term": "secondary education"
+            }, 
+            {
+                "term": "student assistance"
+            }, 
+            {
+                "term": "tertiary education"
+            }
+        ]
+    }, 
+    {
+        "term": "electoral matters"
+    }, 
+    {
+        "term": "environment", 
+        "narrower": [
+            {
+                "term": "conservation"
+            }, 
+            {
+                "term": "environmental monitoring"
+            }, 
+            {
+                "term": "national heritage"
+            }, 
+            {
+                "term": "national parks"
+            }
+        ]
+    }, 
+    {
+        "term": "financial matters", 
+        "narrower": [
+            {
+                "term": "banking"
+            }, 
+            {
+                "term": "commonwealth-state relations"
+            }, 
+            {
+                "term": "corporate affairs"
+            }, 
+            {
+                "term": "currency"
+            }, 
+            {
+                "term": "foreign investment control"
+            }, 
+            {
+                "term": "home savings schemes"
+            }, 
+            {
+                "term": "insurance"
+            }, 
+            {
+                "term": "market regulation"
+            }, 
+            {
+                "term": "public borrowing"
+            }, 
+            {
+                "term": "rationing and price control"
+            }, 
+            {
+                "term": "superannuation"
+            }, 
+            {
+                "term": "taxation"
+            }
+        ]
+    }, 
+    {
+        "term": "foreign policy", 
+        "narrower": [
+            {
+                "term": "government representation overseas", 
+                "narrower": [
+                    {
+                        "term": "consular services"
+                    }, 
+                    {
+                        "term": "extraditions"
+                    }
+                ]
+            }, 
+            {
+                "term": "international relations"
+            }, 
+            {
+                "term": "overseas aid programs"
+            }, 
+            {
+                "term": "passports"
+            }
+        ]
+    }, 
+    {
+        "term": "governor-general"
+    }, 
+    {
+        "term": "health", 
+        "narrower": [
+            {
+                "term": "health services", 
+                "narrower": [
+                    {
+                        "term": "aged persons services"
+                    }, 
+                    {
+                        "term": "dental services"
+                    }, 
+                    {
+                        "term": "disability services"
+                    }, 
+                    {
+                        "term": "hearing services"
+                    }, 
+                    {
+                        "term": "nursing services"
+                    }
+                ]
+            }, 
+            {
+                "term": "hospitals and clinics", 
+                "narrower": [
+                    {
+                        "term": "pathology"
+                    }
+                ]
+            }, 
+            {
+                "term": "medical research"
+            }, 
+            {
+                "term": "pharmaceuticals and medical aids"
+            }, 
+            {
+                "term": "quarantine"
+            }, 
+            {
+                "term": "rehabilitation"
+            }
+        ]
+    }, 
+    {
+        "term": "indigenous affairs", 
+        "narrower": [
+            {
+                "term": "indigenous enterprises"
+            }, 
+            {
+                "term": "indigenous land rights"
+            }, 
+            {
+                "term": "indigenous settlements"
+            }
+        ]
+    }, 
+    {
+        "term": "industrial relations", 
+        "narrower": [
+            {
+                "term": "arbitration"
+            }, 
+            {
+                "term": "compensation schemes"
+            }, 
+            {
+                "term": "employment", 
+                "narrower": [
+                    {
+                        "term": "labour market programs"
+                    }, 
+                    {
+                        "term": "trade skills assessment"
+                    }, 
+                    {
+                        "term": "vocational training schemes"
+                    }
+                ]
+            }, 
+            {
+                "term": "national service"
+            }, 
+            {
+                "term": "occupational health and safety"
+            }, 
+            {
+                "term": "trade union training"
+            }
+        ]
+    }, 
+    {
+        "term": "justice administration", 
+        "narrower": [
+            {
+                "term": "court reporting"
+            }, 
+            {
+                "term": "family law"
+            }, 
+            {
+                "term": "federal law"
+            }, 
+            {
+                "term": "supreme law"
+            }
+        ]
+    }, 
+    {
+        "term": "law enforcement", 
+        "narrower": [
+            {
+                "term": "corrective services"
+            }, 
+            {
+                "term": "criminology"
+            }, 
+            {
+                "term": "police administration"
+            }, 
+            {
+                "term": "protective services"
+            }
+        ]
+    }, 
+    {
+        "term": "memorials", 
+        "narrower": [
+            {
+                "term": "historic memorials"
+            }, 
+            {
+                "term": "war memorials"
+            }
+        ]
+    }, 
+    {
+        "term": "migration", 
+        "narrower": [
+            {
+                "term": "citizenship"
+            }, 
+            {
+                "term": "deportation"
+            }, 
+            {
+                "term": "migrant services"
+            }, 
+            {
+                "term": "multiculturalism"
+            }, 
+            {
+                "term": "passenger entry control"
+            }, 
+            {
+                "term": "refugees"
+            }, 
+            {
+                "term": "visas"
+            }
+        ]
+    }, 
+    {
+        "term": "national events"
+    }, 
+    {
+        "term": "parliamentary matters", 
+        "narrower": [
+            {
+                "term": "parliamentary chamber administration"
+            }, 
+            {
+                "term": "parliamentary legislation"
+            }
+        ]
+    }, 
+    {
+        "term": "primary industries", 
+        "narrower": [
+            {
+                "term": "agriculture", 
+                "narrower": [
+                    {
+                        "term": "horticulture"
+                    }, 
+                    {
+                        "term": "pastoral"
+                    }, 
+                    {
+                        "term": "viticulture"
+                    }
+                ]
+            }, 
+            {
+                "term": "fisheries regulation"
+            }, 
+            {
+                "term": "forestry regulation"
+            }
+        ]
+    }, 
+    {
+        "term": "public service", 
+        "narrower": [
+            {
+                "term": "personnel", 
+                "narrower": [
+                    {
+                        "term": "equity programs"
+                    }, 
+                    {
+                        "term": "recruitment"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "recreation", 
+        "narrower": [
+            {
+                "term": "national fitness"
+            }, 
+            {
+                "term": "parks"
+            }, 
+            {
+                "term": "sport"
+            }, 
+            {
+                "term": "tourism"
+            }
+        ]
+    }, 
+    {
+        "term": "resources", 
+        "narrower": [
+            {
+                "term": "energy"
+            }, 
+            {
+                "term": "metals"
+            }, 
+            {
+                "term": "mining"
+            }, 
+            {
+                "term": "water resources"
+            }
+        ]
+    }, 
+    {
+        "term": "royal commissions"
+    }, 
+    {
+        "term": "science", 
+        "narrower": [
+            {
+                "term": "analytical services"
+            }, 
+            {
+                "term": "earth sciences"
+            }, 
+            {
+                "term": "marine science"
+            }, 
+            {
+                "term": "meteorology"
+            }, 
+            {
+                "term": "scientific research", 
+                "narrower": [
+                    {
+                        "term": "botany"
+                    }, 
+                    {
+                        "term": "genetics"
+                    }, 
+                    {
+                        "term": "zoology"
+                    }
+                ]
+            }, 
+            {
+                "term": "space science"
+            }, 
+            {
+                "term": "survey and mapping"
+            }
+        ]
+    }, 
+    {
+        "term": "secondary industries"
+    }, 
+    {
+        "term": "security and intelligence", 
+        "narrower": [
+            {
+                "term": "external security"
+            }, 
+            {
+                "term": "internal security"
+            }, 
+            {
+                "term": "wartime security", 
+                "narrower": [
+                    {
+                        "term": "internees"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "social and economic research"
+    }, 
+    {
+        "term": "social welfare", 
+        "narrower": [
+            {
+                "term": "community services", 
+                "narrower": [
+                    {
+                        "term": "child welfare"
+                    }
+                ]
+            }, 
+            {
+                "term": "health insurance"
+            }, 
+            {
+                "term": "pensions and benefits"
+            }
+        ]
+    }, 
+    {
+        "term": "territory administration"
+    }, 
+    {
+        "term": "trade", 
+        "narrower": [
+            {
+                "term": "bounties"
+            }, 
+            {
+                "term": "customs", 
+                "narrower": [
+                    {
+                        "term": "coastal surveillance"
+                    }, 
+                    {
+                        "term": "excise"
+                    }, 
+                    {
+                        "term": "inspection services"
+                    }, 
+                    {
+                        "term": "tariff regulation"
+                    }
+                ]
+            }, 
+            {
+                "term": "exports and imports"
+            }, 
+            {
+                "term": "expositions"
+            }, 
+            {
+                "term": "patents and trademarks"
+            }, 
+            {
+                "term": "trade practices"
+            }, 
+            {
+                "term": "weights and measures"
+            }
+        ]
+    }, 
+    {
+        "term": "transport", 
+        "narrower": [
+            {
+                "term": "air transport", 
+                "narrower": [
+                    {
+                        "term": "air safety"
+                    }, 
+                    {
+                        "term": "airport"
+                    }
+                ]
+            }, 
+            {
+                "term": "land transport", 
+                "narrower": [
+                    {
+                        "term": "rail transport"
+                    }, 
+                    {
+                        "term": "road transport"
+                    }, 
+                    {
+                        "term": "road safety"
+                    }
+                ]
+            }, 
+            {
+                "term": "rescue coordination"
+            }, 
+            {
+                "term": "sea transport", 
+                "narrower": [
+                    {
+                        "term": "lighthouses"
+                    }, 
+                    {
+                        "term": "navigation"
+                    }, 
+                    {
+                        "term": "port regulation"
+                    }, 
+                    {
+                        "term": "sea safety"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "term": "veterans' affairs", 
+        "narrower": [
+            {
+                "term": "repatriation"
+            }, 
+            {
+                "term": "repatriation hospitals"
+            }
+        ]
+    }, 
+    {
+        "term": "works", 
+        "narrower": [
+            {
+                "term": "building"
+            }, 
+            {
+                "term": "civil engineering"
+            }, 
+            {
+                "term": "construction"
+            }, 
+            {
+                "term": "housing"
+            }, 
+            {
+                "term": "public utilities"
+            }, 
+            {
+                "term": "regional development"
+            }, 
+            {
+                "term": "urban development"
+            }, 
+            {
+                "term": "waste disposal"
+            }
+        ]
+    }
+]

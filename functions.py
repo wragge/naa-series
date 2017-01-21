@@ -10,7 +10,7 @@ import pprint
 import csv
 
 
-def harvest_functions():
+def harvest_rs_functions():
     functions = []
     subfunc = {}
     function = {}
@@ -30,9 +30,9 @@ def harvest_functions():
                         function['narrower'].append(subfunc)
                     subfunc = {}
                 function = {}
-                function['name'] = cells[0].get_text(' ', strip=True).encode('utf-8')
-                scope = cells[1].get_text(strip=True).replace('SCOPE NOTE ', '')
-                function['scope'] = re.sub(r'\s+', ' ', scope)
+                function['term'] = cells[0].get_text(' ', strip=True).encode('utf-8').replace('\xc2\x92', "'").lower()
+                # scope = cells[1].get_text(strip=True).replace('SCOPE NOTE ', '')
+                # function['scope'] = re.sub(r'\s+', ' ', scope)
             else:
                 for para in cells[1].find_all('p'):
                     child = para.get_text(' ', strip=True)
@@ -45,29 +45,16 @@ def harvest_functions():
                                 function['narrower'] = []
                                 function['narrower'].append(subfunc)
                         subfunc = {}
-                        subfunc['name'] = child
+                        subfunc['term'] = child.lower()
                     else:
                         try:
-                            subfunc['narrower'].append(child[2:].strip())
+                            subfunc['narrower'].append({'term':child[2:].strip().lower()})
                         except KeyError:
                             subfunc['narrower'] = []
-                            subfunc['narrower'].append(child[2:].strip())
+                            subfunc['narrower'].append({'term':child[2:].strip().lower()})
         except AttributeError:
             pass
-    with open('data/functions.txt', 'wb') as text_file:
-        for function in functions:
-            print '{}'.format(function['name'])
-            text_file.write('{}\n'.format(function['name']))
-            if 'narrower' in function:
-                for subf in function['narrower']:
-                    print '  - {}'.format(subf['name'])
-                    text_file.write('  - {}\n'.format(subf['name']))
-                    if 'narrower' in subf:
-                        for subsubf in subf['narrower']:
-                            print '    - {}'.format(subsubf)
-                            text_file.write('    - {}\n'.format(subsubf))
-    with open('data/functions.json', 'wb') as json_file:
-        json.dump(functions, json_file, indent=4)
+    return functions
 
 
 def load_functions():
@@ -162,13 +149,15 @@ def check_duplicates():
         print '{} series'.format(len(series))
         print '{} duplicates'.format(duplicates)
 
-def harvest_agift3():
+
+def harvest_agift3_functions():
     count = 0
     functions = []
     with open('data/agift.js', 'rb') as data_file:
         function = {}
         subf = {}
-        for match in re.finditer(r"V([\d_]+) = new WebFXTreeItem\('([\w -]+)'", data_file.read().replace('&#39;', "'")):
+        data = data_file.read().replace('&#39;', "'")
+        for match in re.finditer(r"V([\d_]+) = new WebFXTreeItem\('([\w -]+)'", data):
             count += 1
             id, name = match.groups()
             levels = id.split('_')
@@ -201,10 +190,10 @@ def harvest_agift3():
     functions.append(function)
     pprint.pprint(functions)
     print count 
-    with open('data/agift-v3.json', 'wb') as json_file:
-        json.dump(functions, json_file, indent=4)
+    return functions
 
-def harvest_agift2():
+
+def harvest_agift2_functions():
     from agift2 import tree
     count = 0
     functions = []
@@ -227,10 +216,10 @@ def harvest_agift2():
         functions.append(function)
     pprint.pprint(functions)
     print count
-    with open('data/agift-v2.json', 'wb') as json_file:
-        json.dump(functions, json_file, indent=4)
+    return functions
 
-def harvest_agift1():
+
+def harvest_agift1_functions():
     functions = []
     function = {}
     subf = {}
@@ -270,5 +259,29 @@ def harvest_agift1():
         functions.append(function)
         pprint.pprint(functions)
         print count
-        with open('data/agift-v1.json', 'wb') as json_file:
-            json.dump(functions, json_file, indent=4)
+        return functions
+
+
+def write_functions(version):
+    if version == 'recordsearch':
+        functions = harvest_rs_functions()
+    elif version == 'agift1':
+        functions = harvest_agift1_functions()
+    elif version == 'agift2':
+        functions = harvest_agift2_functions()
+    elif version == 'agift3':
+        functions = harvest_agift3_functions()
+    with open('data/functions-{}.txt'.format(version), 'wb') as text_file:
+        for function in functions:
+            print '{}'.format(function['term'].upper())
+            text_file.write('{}\n'.format(function['term'].upper()))
+            if 'narrower' in function:
+                for subf in function['narrower']:
+                    print '  - {}'.format(subf['term'].title())
+                    text_file.write('  - {}\n'.format(subf['term'].title()))
+                    if 'narrower' in subf:
+                        for subsubf in subf['narrower']:
+                            print '    - {}'.format(subsubf['term'].title())
+                            text_file.write('    - {}\n'.format(subsubf['term'].title()))
+    with open('data/functions-{}.json'.format(version), 'wb') as json_file:
+        json.dump(functions, json_file, indent=4)

@@ -1,0 +1,573 @@
+BUSINESS MANAGEMENT 
+  - Association Registration
+  - Business Process Auditing
+  - Business Registration
+    - Business Permits And Licences
+  - Business Sponsorship
+  - Consumer Protection
+  - Fair Trading Compliance
+    - Prices Surveillance
+    - Product Safety
+    - Trade Practices Compliance
+  - Financial Institutions Regulation
+    - Authorised Deposit Taking Institutions
+  - Government Procurement Regulation
+  - Indigenous Enterprise Development
+  - Industry Assistance Schemes
+  - Insurance Regulation
+    - General Insurance
+    - Life Insurance
+  - Small Business Services
+    - Small Business Advocacy
+    - Small Business Development
+  - Stock Market Regulation
+CIVIC INFRASTRUCTURE
+  - Civic Management
+    - Architectural Services
+    - Building Approval Services
+    - Building Regulations And Standards
+    - Engineering Services
+    - Town Planning
+  - Energy Supply
+  - Integrated Service Planning
+  - Public Housing 
+    - Public Housing Construction
+    - Public Housing Design
+    - Public Housing Maintenance
+  - Public Land Management
+    - Burial Ground Management
+    - Cultural Centre Management
+    - Garden Management
+    - Memorial Maintenance
+    - Recreational Park Management
+    - Sporting Facilities Management
+  - Regional Development
+  - Transport Network Maintenance
+  - Waste Management
+COMMUNICATIONS
+  - Broadcasting
+    - Broadcasting Standards
+    - Radio Broadcasting
+    - Television Broadcasting
+  - Call Centre Administration
+  - Electronic Commerce
+    - Authentication
+    - Online Transaction Standards
+  - Government Media
+    - Advertising Standards
+  - Information Management Standards
+    - Data Management
+    - Information Dissemination
+    - Information Technology Standards
+  - Media Ownership Regulation
+  - Postal Services
+    - Courier Services
+    - Electronic Postal Services
+    - Retail Postal Services
+  - Publishing
+    - Electronic Publishing
+    - Publishing Standards
+    - Website Development
+  - Radio Communication
+    - Apparatus Licensing
+    - Spectrum Management
+  - Satellite Communication
+  - Telecommunications
+    - Carriage Service Providers
+    - Carrier Licensing
+    - Equipment Licensing
+    - Mobile Telephone Services
+    - Telephone Services
+COMMUNITY SERVICES
+  - Accommodation Services
+    - Defence Housing
+    - Emergency Accommodation
+    - Public Housing Entitlements
+    - Refuge Support
+  - Community Support
+    - Adoption Services
+    - Aged Care Services
+    - Child And Youth Support
+    - Childcare Services
+    - Defence Community Programs
+    - Family Reunion Programs
+    - Indigenous Welfare Programs
+    - Veteran Entitlements
+  - Community Transport
+    - Transport Access Schemes
+  - Counselling Services
+  - Emergency Services
+    - Ambulance Services
+    - Emergency Funding
+    - Firefighting Services
+  - Financial Assistance
+    - Benefit Entitlements
+    - Income Support Schemes
+    - Pension Entitlements
+    - Rebate Schemes
+  - Natural Disasters
+    - Defence Forces Assistance
+    - Disaster Recovery
+    - Disaster Relief 
+  - Rural Community Development
+  - Social Justice And Equity
+    - Welfare Complaints Services
+CULTURAL AFFAIRS
+  - Arts Development
+    - Arts Funding
+    - Arts Incentive Schemes
+    - Arts Promotion
+  - Collection Access
+    - Descriptive Standards
+    - Finding Aids Development
+    - Reference Services
+  - Collection Management
+    - Artifact Export Regulation
+    - Collection Accessioning
+    - Collection Acquisition
+    - Collection Storage
+    - Preservation Services
+  - Collection Promotion
+    - Exhibitions Programs
+    - Publicity Programs
+  - Cultural Awards And Scholarships
+  - Cultural Festivals
+  - Cultural Gifts Programs
+  - Indigenous Cultural Heritage
+    - Sacred Object Protection
+  - Multicultural Heritage Promotion
+    - Multicultural Festivals
+    - Multicultural Services 
+DEFENCE
+  - Australian Defence Forces (Adf)
+    - Airforce 
+    - Army
+    - Badges And Insignia
+    - Cadets
+    - Defence Force Commands
+    - Military Bands
+    - Navy 
+    - Reserves
+    - Roulettes
+  - Defence Estate Management
+  - Defence Force Careers
+    - Defence Career Development 
+    - Military Employment Services
+  - Emergency Management
+    - Civil Community Assistance
+    - Disaster Support
+  - Military Operations
+    - Australian Theatre Of War
+    - Military Exercises
+    - Special Operations
+    - Warfare
+  - Strategic Development
+    - Defence Efficiency Review
+    - Defence Reform Program
+  - Strategic Policy
+    - Strategic Decisions
+    - Strategic Planning
+  - Strategic Support
+    - Capital Equipment Programs
+    - Defence Industry
+    - Logistics
+EDUCATION AND TRAINING
+  - Arts Education
+  - Community Education
+    - Adult Education Programs
+    - Adult Migrant Education
+    - Road Safety Awareness
+  - Curriculum Development
+  - Early Childhood Education
+    - Preschool Education
+  - Military Education And Training
+    - Army Reserve Training
+    - Defence College Training
+  - Overseas Skills Recognition
+  - School Education
+    - Discipline Programs
+    - School Transport Regulation
+    - Special Needs Programs
+  - Tertiary Education
+  - Vocational Education
+    - Apprenticeship Programs
+    - Hospital Teaching Programs
+    - Trainee Programs
+    - Workplace Training
+ENVIRONMENT
+  - Built Environment
+    - Building Acoustics
+    - Building Preservation 
+  - Conservation Programs
+    - Endangered Species Protection
+    - Landcare Programs
+    - Soil Preservation Programs
+  - Environmental Impact Assessment
+  - Historic Relic Protection
+  - Indigenous Heritage Conservation
+    - Sacred Site Protection
+  - Marine Life Protection Programs
+  - Natural Heritage Protection
+    - National Park Management
+    - Nature Reserve Management
+    - Wilderness Area Management
+    - Wildlife Sanctuary Management
+  - Pollutant Prevention Programs
+  - World Heritage Listings
+FINANCE MANAGEMENT
+  - Commonwealth State Funding
+  - Currency
+    - Counterfeiting
+    - Exchange Rates
+    - Inflation
+  - Financial Investment
+    - Foreign Investment Control
+    - Investment Scheme Regulation
+  - Fiscal Policy
+    - Public Borrowing
+    - Public Debt
+    - Public Expenditure
+  - International Monetary Regulation
+  - Resource Management
+    - Financial Administration
+    - Financial Budgeting
+    - Contract Management
+  - Retirement Income
+    - Asset Assessment
+    - Retirement Saving
+    - Superannuation
+  - Taxation
+    - Income Assessment
+    - Revenue Raising
+    - Taxation Compliance
+GOVERNANCE
+  - Census Collection
+    - Demographic Surveys
+    - Household Census
+    - Population Distribution Analysis
+  - Chamber Support
+    - Hansard Services
+    - Parliamentary Papers
+    - Tabling Of Official Documents
+  - Civic Celebrations
+  - Committee And Member Support
+  - Constitutional Matters
+    - Constitutional Conventions
+    - Constitutional Referenda
+  - Electoral Matters
+    - Declaration Of Interests
+    - Election Campaigning
+    - Electoral Boundary Assessment
+  - Honours And Award Programs
+  - Indigenous Reconciliation
+  - Intergovernment Relations
+    - Cross-Border Cooperation
+    - Federation Celebrations
+    - Intergovernment Policy Dissemination
+  - Legislative Drafting
+    - Draft Bill Amendment Process
+    - Legislation Review
+    - Preparation Of Legislative Regulations
+  - Official Protocol
+    - Ceremonial Representation
+    - Head Of Government Protocol
+    - Official Establishment Management
+    - Official Hospitality
+    - Official Visits
+HEALTH CARE
+  - Community Health Services
+    - Clinical Health Services
+    - Health Counselling
+    - Health Promotion
+    - Primary Health Care
+  - Health Insurance Schemes
+  - Health Protocol Administration
+    - Drugs And Poisons Regulation
+    - Food Hygiene Regulation
+    - Practitioner Discipline
+    - Practitioner Registration
+  - Hospital Services
+    - Hospital Administration
+    - Patient Care
+    - Pharmaceutical And Drug Support
+  - Indigenous Health Services
+  - Medical Research
+    - Ethical Compliance
+    - Medical Aids Regulation
+    - Medical Research Funding
+    - National Referral Laboratory Services
+    - Population-Based Research
+  - Public Health Services
+    - Epidemiology
+    - Health Disaster Preparedness
+    - Health Hazard Prevention
+    - Health Risk Management
+    - Medical Quarantine Services
+    - Notifiable Disease Management
+  - Special Needs Services
+    - Child And Adolescent Health Services
+    - Dental Health Services
+    - Independent Living Services
+    - Mental Health Services
+    - Residential Services
+  - Veteran Health Services
+IMMIGRATION
+  - Citizenship
+    - Naturalisation Assessment
+    - Presentation Arrangements
+  - Deportation
+  - Detention Programs
+  - Migrant Services
+    - Interpreter Services
+    - Language Services
+    - Migrant Accommodation Services
+    - Migrant Settlement Programs
+  - Refugee Services
+  - Travel Authorisation
+    - Permanent Entry Arrangements
+    - Temporary Entry Arrangements
+INTERNATIONAL RELATIONS
+  - Consular Services
+  - Diplomatic Missions
+  - International Affairs
+    - Disarmament And Arms Control
+    - International Expositions
+    - Nuclear Safeguards
+  - International Liaison
+    - Defence Attaches
+    - Defence Cooperation Programs 
+    - Defence Personnel Exchanges
+    - Military Advisors
+  - International Treaty Participation
+    - Bilateral Treaties
+    - Multilateral Treaties
+  - Overseas Aid Programs
+    - Development Assistance Programs
+    - Overseas Student Scholarship Programs
+  - Overseas Promotion
+    - International Cultural Exchanges
+  - Passport Services
+JUSTICE ADMINISTRATION
+  - Administrative Law
+    - Administrative Decision Appeal
+    - Administrative Decision Review
+    - Censorship Standards
+    - Copyright Regulation
+    - Recordkeeping Standards
+  - Associations And Corporate Law
+    - Bankruptcy Proceedings
+    - Merger Regulation
+  - Civil Law
+    - Birth, Death And Marriage Registration
+    - Conveyancing
+    - Family Law Proceedings
+    - Probate Applications
+    - Dispute Mediation Programs
+  - Commissions Of Inquiry
+  - Coronial Law
+  - Court Reporting
+  - Criminal Law
+  - Human Rights Obligations
+  - Juvenile Justice
+  - Legal Aid Services
+  - Local Laws And Ordinances
+    - Permits And Licence Applications
+  - Native Title Claims
+    - Applications For Native Title
+    - Litigation Processes
+    - Mediation Programs
+    - Settlement Negotiations
+  - Privacy Guideline Monitoring
+  - Prosecution Services
+MARITIME SERVICES
+  - Coastal Pilotage
+    - Vessel Piloting
+  - Harbour Management
+  - Marina Management
+  - Navigation
+    - Charting Sea Lanes
+    - Lightstation Maintenance
+    - Navigation Systems Development
+  - Port Regulation
+  - Search And Rescue
+    - Rescue Coordination
+    - Search Technology Development
+  - Ship Personnel
+    - Personal Safety Standards
+    - Pilot Licensing
+  - Ship Safety
+    - Cargo Control
+    - Ship Commissioning
+    - Ship Inspection
+    - Unseaworthiness
+PRIMARY INDUSTRIES
+  - Chemical And Pesticide Regulation
+  - Climate Information Services
+  - Marine And Rural Regulation 
+    - Agricultural Industry
+    - Fisheries Industry
+    - Forestry Industry
+    - Quarantine
+  - Marine And Rural Support
+    - Aquacultural Industry
+    - Food Quality Assurance
+    - Horticultural Industry
+    - Pastoral Industry
+    - Silvicultural Industry
+  -  
+    - Viticultural Industry
+  - Rural Field Day Promotion
+  - Rural Partnership Programs
+RESOURCES
+  - Crown Land Administration
+  - Energy Resources
+    - Fossil Fuel Management
+    - Renewable Energy Development
+  - Land Use Planning
+  - Land Use Zoning
+    - Commercial Zoning
+    - Public Land Zoning
+    - Residential Zoning
+  - Land Valuation
+  - Mineral Resources
+    - Land Rehabilitation Programs
+    - Mining Regulations
+  - Pollution Emission Control
+  - Water Resources
+    - Water Conservation Plans
+    - Water Quality Monitoring
+    - Water Usage Management
+    - Waterway Management
+SCIENCE
+  - Agricultural Sciences
+  - Animal And Veterinary Sciences
+  - Applied Sciences
+    - Engineering And Technology Sciences
+    - Weights And Measures Standards
+  - Biological Sciences
+    - Biochemistry 
+    - Biodiversity Preservation
+    - Biotechnology Development
+    - Botany
+    - Entomology
+    - Genetic Engineering
+    - Physiology
+  - Earth Sciences
+    - Atmospheric Sciences
+    - Hydrology
+    - Mineral Exploration
+    - Oceanography
+    - Seismography
+  - Mathematical Sciences
+  - Medical And Health Sciences
+  - Physical Sciences
+    - Astronomical Sciences
+    - Atomic And Molecular Sciences
+    - Nuclear Sciences
+  - Spatial Information Research
+SECURITY 
+  - Corrective Services
+    - Community-Based Corrections
+    - Detention Centre Management
+  - External Security
+    - International Security Liaison
+    - Peacekeeping Forces
+  - Information Security
+    - Data Security Standards
+  - Intelligence
+    - Forensic Analysis
+    - Intelligence Liaison
+    - Intelligence Support
+  - Law Enforcement
+    - Community Policing
+    - Criminology
+    - Police Administration
+    - Protective Services
+  - Community Protection
+    - Coastal Surveillance
+SPORT AND RECREATION
+  - Caravan And Camping Services
+  - Community Recreational Programs
+    - Gambling Support Services
+    - Public Fitness Promotion
+    - Social Club Support
+    - Volunteer Support Programs
+  - Gaming Industry Regulation
+  - Sport And Fitness Development
+    - Athlete Scholarship Programs
+    - Fundraising And Donation Schemes
+    - Games Administration
+    - Games Promotion
+    - Sporting Grants Administration
+  - Sports Drugs Monitoring
+    - Doping Detection Research
+  - Park And Reserve Services
+    - Park Access And Permits
+TOURISM
+  - Tourism Industry Development
+    - Tourism Awards
+  - Tourist Event Promotion
+    - Advertising Campaigns
+    - Exhibition Promotion
+    - Trade Fair Promotion
+  - Travel Missions
+TRADE
+  - Customs Regulations
+    - Inspection Services
+  - Export Regulation 
+    - Export Promotion
+    - Prohibited Export Control
+  - Import Regulation
+    - Tariff Regulation
+    - Prohibited Import Control
+  - International Trade Agreements
+  - Interstate Trade Agreements
+  - Patent Registration
+  - Trade Development Programs
+  - Trade Expositions
+  - Trademark Registration
+TRANSPORT
+  - Air Transport
+    - Aircraft Standards
+    - Airport Services
+    - Air Transport Safety
+  - Freight Movement Regulation
+  - Passenger Services
+  - Rail Transport
+    - Rail Harmonisation Standards
+    - Rail Land Acquisition Regulation
+    - Rail Transport Safety
+    - Railway Maintenance
+    - Rolling Stock Regulation
+  - Road Transport
+    - Driving Licences Administration
+    - Road Surface Maintenance
+    - Road Traffic Regulation
+    - Road Transport Safety
+    - Vehicle Registration
+    - Vehicle Standards
+  - Transport Infrastructre Development
+WORKPLACE MANAGEMENT
+  - Employment Services
+    - Employment Services Marketing
+    - Job Placement Programs
+    - Job Vacancy Data Management
+    - Labour Market Programs
+  - Human Resource Development
+    - Employment Conditions And Safety
+    - Recruitment Programs
+    - Termination Processes
+    - Workers Compensation Schemes
+    - Workplace Discrimination Monitoring
+    - Workplace Equity And Justice Programs
+  - Income Awards And Conditions
+    - Award Conditions
+    - Rates Of Pay And Salary
+    - Remuneration Review
+    - Youth Wages And Allowances
+  -  Workplace Agreement Processes
+    - Agreement Dispute Mediation
+    - Certified Employment Conditions
+    - Employment Advocacy Services
+    - Enterprise Bargaining Processes
+    - Enterprise Codes Of Practice
