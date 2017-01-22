@@ -31,3 +31,5 @@ I've harvested the main terms from each of these versions:
 * AGIFT 3  -- [TXT](data/functions-agift3.txt) | [JSON](data/functions-agift3.json)
 
 The code used to harvest the functions is in `functions.py`.
+
+AGIFT is made available by the National Archives of Australia under a CC-BY-NC-ND licence.
