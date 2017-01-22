@@ -12,9 +12,9 @@ ADMINISTRATIVE SERVICES
   - Goods And Services
   - Government Accommodation And Catering
   - Property Management
-    - Acquisition
-    - Leasing
-    - Maintenance
+    -- Acquisition
+    -- Leasing
+    -- Maintenance
   - Removals
   - Storage
   - Valuation
@@ -23,8 +23,8 @@ CABINET
 COMMITTEES OF INQUIRY
 COMMUNICATIONS
   - Broadcasting
-    - Radio Broadcasting
-    - Television Broadcasting
+    -- Radio Broadcasting
+    -- Television Broadcasting
   - Government Media
   - Postal Services
   - Publishing And Printing
@@ -32,16 +32,16 @@ COMMUNICATIONS
 CULTURAL AFFAIRS
   - Archives Administration
   - Arts Development
-    - Film Production
+    -- Film Production
   - Collection Management
   - Literature Funding
 DEFENCE
   - Defence Administration
   - Defence Forces
   - Defence Industries
-    - Munitions
-    - Ordnance
-    - Shipbuilding
+    -- Munitions
+    -- Ordnance
+    -- Shipbuilding
   - Defence Intelligence
   - Defence Research
 EDUCATION
@@ -72,21 +72,21 @@ FINANCIAL MATTERS
   - Taxation
 FOREIGN POLICY
   - Government Representation Overseas
-    - Consular Services
-    - Extraditions
+    -- Consular Services
+    -- Extraditions
   - International Relations
   - Overseas Aid Programs
   - Passports
 GOVERNOR-GENERAL
 HEALTH
   - Health Services
-    - Aged Persons Services
-    - Dental Services
-    - Disability Services
-    - Hearing Services
-    - Nursing Services
+    -- Aged Persons Services
+    -- Dental Services
+    -- Disability Services
+    -- Hearing Services
+    -- Nursing Services
   - Hospitals And Clinics
-    - Pathology
+    -- Pathology
   - Medical Research
   - Pharmaceuticals And Medical Aids
   - Quarantine
@@ -99,9 +99,9 @@ INDUSTRIAL RELATIONS
   - Arbitration
   - Compensation Schemes
   - Employment
-    - Labour Market Programs
-    - Trade Skills Assessment
-    - Vocational Training Schemes
+    -- Labour Market Programs
+    -- Trade Skills Assessment
+    -- Vocational Training Schemes
   - National Service
   - Occupational Health And Safety
   - Trade Union Training
@@ -132,15 +132,15 @@ PARLIAMENTARY MATTERS
   - Parliamentary Legislation
 PRIMARY INDUSTRIES
   - Agriculture
-    - Horticulture
-    - Pastoral
-    - Viticulture
+    -- Horticulture
+    -- Pastoral
+    -- Viticulture
   - Fisheries Regulation
   - Forestry Regulation
 PUBLIC SERVICE
   - Personnel
-    - Equity Programs
-    - Recruitment
+    -- Equity Programs
+    -- Recruitment
 RECREATION
   - National Fitness
   - Parks
@@ -158,9 +158,9 @@ SCIENCE
   - Marine Science
   - Meteorology
   - Scientific Research
-    - Botany
-    - Genetics
-    - Zoology
+    -- Botany
+    -- Genetics
+    -- Zoology
   - Space Science
   - Survey And Mapping
 SECONDARY INDUSTRIES
@@ -168,21 +168,21 @@ SECURITY AND INTELLIGENCE
   - External Security
   - Internal Security
   - Wartime Security
-    - Internees
+    -- Internees
 SOCIAL AND ECONOMIC RESEARCH
 SOCIAL WELFARE
   - Community Services
-    - Child Welfare
+    -- Child Welfare
   - Health Insurance
   - Pensions And Benefits
 TERRITORY ADMINISTRATION
 TRADE
   - Bounties
   - Customs
-    - Coastal Surveillance
-    - Excise
-    - Inspection Services
-    - Tariff Regulation
+    -- Coastal Surveillance
+    -- Excise
+    -- Inspection Services
+    -- Tariff Regulation
   - Exports And Imports
   - Expositions
   - Patents And Trademarks
@@ -190,18 +190,18 @@ TRADE
   - Weights And Measures
 TRANSPORT
   - Air Transport
-    - Air Safety
-    - Airport
+    -- Air Safety
+    -- Airport
   - Land Transport
-    - Rail Transport
-    - Road Transport
-    - Road Safety
+    -- Rail Transport
+    -- Road Transport
+    -- Road Safety
   - Rescue Coordination
   - Sea Transport
-    - Lighthouses
-    - Navigation
-    - Port Regulation
-    - Sea Safety
+    -- Lighthouses
+    -- Navigation
+    -- Port Regulation
+    -- Sea Safety
 VETERANS' AFFAIRS
   - Repatriation
   - Repatriation Hospitals

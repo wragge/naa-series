@@ -8,6 +8,7 @@ from credentials import MONGO_SERIES_URL
 import datetime
 import pprint
 import csv
+import difflib
 
 
 def harvest_rs_functions():
@@ -45,7 +46,7 @@ def harvest_rs_functions():
                                 function['narrower'] = []
                                 function['narrower'].append(subfunc)
                         subfunc = {}
-                        subfunc['term'] = child.lower()
+                        subfunc['term'] = child.strip().lower()
                     else:
                         try:
                             subfunc['narrower'].append({'term':child[2:].strip().lower()})
@@ -157,7 +158,8 @@ def harvest_agift3_functions():
         function = {}
         subf = {}
         data = data_file.read().replace('&#39;', "'")
-        for match in re.finditer(r"V([\d_]+) = new WebFXTreeItem\('([\w -]+)'", data):
+        print data
+        for match in re.finditer(r"V([\d_]+) = new WebFXTreeItem\('([\w -,\']+?)','", data):
             count += 1
             id, name = match.groups()
             levels = id.split('_')
@@ -172,7 +174,7 @@ def harvest_agift3_functions():
                     subf = {}
                 if function:
                     functions.append(function)
-                function = {'term': name}
+                function = {'term': name.strip().lower()}
             elif level == 2:
                 if subf:
                     try:
@@ -180,16 +182,16 @@ def harvest_agift3_functions():
                     except KeyError:
                         function['narrower'] = []
                         function['narrower'].append(subf)
-                subf = {'term': name}  
+                subf = {'term': name.strip().lower()}  
             elif level == 3:
                 try:
-                    subf['narrower'].append({'term': name})
+                    subf['narrower'].append({'term': name.strip().lower()})
                 except KeyError:
                     subf['narrower'] = []
-                    subf['narrower'].append({'term': name})
+                    subf['narrower'].append({'term': name.strip().lower()})
     functions.append(function)
-    pprint.pprint(functions)
-    print count 
+    # pprint.pprint(functions)
+    # print count 
     return functions
 
 
@@ -201,21 +203,21 @@ def harvest_agift2_functions():
     subf = {}
     for branch in tree:
         count += 1
-        function = {'term': branch[0]}
+        function = {'term': branch[0].strip().lower()}
         if len(branch) > 2:
             function['narrower'] = []
             for twig in branch[2:]:
                 count += 1
-                subf = {'term': twig[0]}
+                subf = {'term': twig[0].strip().lower()}
                 if len(twig) > 2:
                     subf['narrower'] = []
                     for leaf in twig[2:]:
                         count += 1
-                        subf['narrower'].append({'term': leaf[0]})
+                        subf['narrower'].append({'term': leaf[0].strip().lower()})
                 function['narrower'].append(subf)
         functions.append(function)
-    pprint.pprint(functions)
-    print count
+    # pprint.pprint(functions)
+    # print count
     return functions
 
 
@@ -238,7 +240,7 @@ def harvest_agift1_functions():
                             function['narrower'].append(subf)
                         subf = {}
                     functions.append(function)
-                function = {'term': row[0]}
+                function = {'term': row[0].strip().lower()}
             elif row[1]:
                 count += 1
                 if subf:
@@ -247,22 +249,22 @@ def harvest_agift1_functions():
                     except KeyError:
                         function['narrower'] = []
                         function['narrower'].append(subf)
-                subf = {'term': row[1]}
+                subf = {'term': row[1].strip().lower()}
                 if row[2]:
                     count += 1
                     subf['narrower'] = []
-                    subf['narrower'].append({'term': row[2]})
+                    subf['narrower'].append({'term': row[2].strip().lower()})
             elif row[2]:
                 count += 1
-                subf['narrower'].append({'term': row[2]})
+                subf['narrower'].append({'term': row[2].strip().lower()})
         function['narrower'].append(subf)
         functions.append(function)
-        pprint.pprint(functions)
-        print count
+        # pprint.pprint(functions)
+        # print count
         return functions
 
 
-def write_functions(version):
+def get_functions(version):
     if version == 'recordsearch':
         functions = harvest_rs_functions()
     elif version == 'agift1':
@@ -271,6 +273,11 @@ def write_functions(version):
         functions = harvest_agift2_functions()
     elif version == 'agift3':
         functions = harvest_agift3_functions()
+    return functions
+
+
+def write_functions(version):
+    functions = get_functions(version)
     with open('data/functions-{}.txt'.format(version), 'wb') as text_file:
         for function in functions:
             print '{}'.format(function['term'].upper())
@@ -281,7 +288,47 @@ def write_functions(version):
                     text_file.write('  - {}\n'.format(subf['term'].title()))
                     if 'narrower' in subf:
                         for subsubf in subf['narrower']:
-                            print '    - {}'.format(subsubf['term'].title())
-                            text_file.write('    - {}\n'.format(subsubf['term'].title()))
+                            print '    -- {}'.format(subsubf['term'].title())
+                            text_file.write('    -- {}\n'.format(subsubf['term'].title()))
     with open('data/functions-{}.json'.format(version), 'wb') as json_file:
         json.dump(functions, json_file, indent=4)
+
+
+def list_functions(version, all=True):
+    '''Convert hierarchy to simple list.'''
+    flist = []
+    functions = get_functions(version)
+    for function in functions:
+        flist.append(function['term'])
+        if all and 'narrower' in function:
+            for subfunc in function['narrower']:
+                flist.append(subfunc['term'])
+                if all and 'narrower' in subfunc:
+                    for subsubfunc in subfunc['narrower']:
+                        flist.append(subsubfunc['term'])
+    return sorted(flist)
+
+
+def compare_functions(version1, version2):
+    list1 = list_functions(version1)
+    list2 = list_functions(version2)
+    not1 = [function for function in list1 if function not in list2]
+    not2 = [function for function in list2 if function not in list1]
+    print 'Functions in {}, but not in {}:\n'.format(version1, version2)
+    for f in not1:
+        print f
+    print '\nFunctions in {}, but not in {}:\n'.format(version2, version1)
+    for f in not2:
+        print f
+
+def make_diffs(version1, version2):
+    with open('data/functions-{}.txt'.format(version1), 'rb') as file1:
+        functions1 = file1.readlines()
+    with open('data/functions-{}.txt'.format(version2), 'rb') as file2:
+        functions2 = file2.readlines()
+    print functions1
+    differ = difflib.HtmlDiff()
+    print differ.make_table(functions1, functions2, context=True)
+
+
+
