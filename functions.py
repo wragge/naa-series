@@ -10,7 +10,9 @@ import datetime
 import pprint
 import csv
 import difflib
-
+from rstools.client import RSClient
+import robobrowser
+from operator import itemgetter
 
 def harvest_rs_functions():
     functions = []
@@ -30,6 +32,13 @@ def harvest_rs_functions():
                     except KeyError:
                         subfunc['narrower'] = []
                         subfunc['narrower'].append({'term':child[2:].strip().lower()})
+            elif cells[0].find('p').string.strip() == 'GENERIC ACTIVITIES':
+                for para in cells[1].find_all('p'):
+                    child = para.get_text(' ', strip=True)
+                    child = re.sub(r' ([a-z]{1})\b', r'\1', child) # Some letters at end of words get orphaned -- join them up
+                    function = {}
+                    function['term'] = para.get_text(' ', strip=True).encode('utf-8').replace('\xc2\x92', "'").lower()
+                    functions.append(function)
             elif not cells[0].find('p').string.strip() == 'NT':
                 if function:
                     functions.append(function)
@@ -65,6 +74,7 @@ def harvest_rs_functions():
                             subfunc['narrower'].append({'term':child[2:].strip().lower()})
         except AttributeError:
             pass
+    functions = sorted(functions, key=itemgetter('term'))
     return functions
 
 
@@ -286,6 +296,9 @@ def harvest_agift1_functions():
 
 def get_functions(version):
     if version == 'recordsearch':
+        c = RSFunctionsClient()
+        functions = c.harvest_functions()
+    elif version == 'crsthesaurus':
         functions = harvest_rs_functions()
     elif version == 'agift1':
         functions = harvest_agift1_functions()
@@ -359,6 +372,73 @@ def get_used_functions():
     for function in db.functions.find({'agencies': {'$exists': True}}).sort('term'):
         print '| {:30} | {:4} | {} |'.format(function['term'], len(function['agencies']), ', '.join([version['version'] for version in function['versions']]))
     print db.functions.find({'agencies': {'$exists': True}}).sort('term').count()
+
+
+def compare_dropdown():
+    functions = list_functions('recordsearch')
+    print functions
+    with open('data/functions-dropdown.txt', 'rb') as text_file:
+        for term in text_file.readlines():
+            if term.strip().lower() not in functions:
+                print term
+
+
+class RSFunctionsClient(RSClient):
+
+    def harvest_functions(self):
+        terms = []
+        self.br.session.headers.update({'Referer': 'http://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/BasicSearch.aspx'})
+        self.br.open('http://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/AdvSearchFunctionsBrowsing.aspx')
+        #print form
+        for letter in range(0, 26):
+            print letter
+            form = self.br.get_form(id='formSNRMaster')
+            form['__EVENTTARGET'] = 'ctl00$ContentPlaceHolderSNR$ctl{}'.format(str(letter).zfill(2))
+            submit = robobrowser.forms.fields.Input('<input type="submit" value="Submit" name="submit">Submit</input>')
+            form.add_field(submit)
+            form.fields.pop('ctl00$btnLogin')
+            # print form
+            self.br.submit_form(form, submit=form['submit'])
+            # print self.br.parsed
+            try:
+                for row in self.br.find(id='ContentPlaceHolderSNR_dlFunctions').find_all('tr', recursive=False):
+                    try:
+                        href = row.find('a')['href']
+                    except (KeyError):
+                        pass
+                    else:
+                        term = {'term': row.find('a').string.lower()}
+                        if row.find('table'):
+                            for related in row.find('table').find_all('tr'):
+                                cells = related.find_all('td')
+                                if re.search(r'Broad term', cells[0].string):
+                                    term['parent'] = cells[1].find('a').string.lower()
+                        terms.append(term)
+            except AttributeError:
+                pass
+        functions = [term for term in terms if 'parent' not in term]
+        children = [term for term in terms if 'parent' in term]
+        for term in children:
+            parent = term['parent']
+            for function in functions:
+                if function['term'] == parent:
+                    try:
+                        function['narrower'].append({'term': term['term']})
+                    except KeyError:
+                        function['narrower'] = []
+                        function['narrower'].append({'term': term['term']})
+        for term in children:
+            parent = term['parent'].lower()
+            for function in functions:
+                if 'narrower' in function:
+                    for subf in function['narrower']:
+                        if subf['term'] == parent:
+                            try:
+                                subf['narrower'].append({'term': term['term']})
+                            except KeyError:
+                                subf['narrower'] = []
+                                subf['narrower'].append({'term': term['term']})
+        return functions
 
 
 

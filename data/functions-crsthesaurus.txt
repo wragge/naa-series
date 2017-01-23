@@ -1,12 +1,27 @@
+ACCREDITATION
+ADMINISTRATIVE LAW
+  - Bankruptcy
+  - Censorship
+  - Consumer Affairs
+  - Copyright
+  - Human Rights
+  - Legal Aid
+  - Legal Services
+  - Ombudsman
 ADMINISTRATIVE SERVICES
+  - Freight
   - Goods And Services
   - Government Accommodation And Catering
   - Property Management
+    -- Acquisition
+    -- Leasing
+    -- Maintenance
+  - Removals
+  - Storage
+  - Valuation
+ADVICE GIVING
 AUDIT
-AUSTRALIAN CAPITAL TERRITORY
 CABINET
-CEREMONIAL FUNCTIONS
-COLONIAL ADMINISTRATION
 COMMITTEES OF INQUIRY
 COMMUNICATIONS
   - Broadcasting
@@ -16,7 +31,6 @@ COMMUNICATIONS
   - Postal Services
   - Publishing And Printing
   - Telecommunications
-COURTS AND TRIBUNALS
 CULTURAL AFFAIRS
   - Archives Administration
   - Arts Development
@@ -26,18 +40,43 @@ CULTURAL AFFAIRS
 DEFENCE
   - Defence Administration
     -- Defence Coordination
+    -- Natural Disasters
   - Defence Forces
     -- Air Force
+    -- Air Force Administration
+    -- Air Force Commands
+    -- Air Operations
+    -- Logistics (Air Force)
+    -- Training (Air Force)
+    -- Army
+    -- Army
+    -- Army Administration
+    -- Army Commands
+    -- Field Force (Army)
+    -- Logistics (Army)
+    -- Training (Army)
+    -- Courts Martial
+    -- Defence Service Home Schemes
     -- Logistics (Defence)
+    -- Navy
+    -- Navy Administration
+    -- Navy Commands
+    -- Maritime Commands (Navy)
     -- Prisoners Of War
   - Defence Industries
+    -- Munitions
+    -- Ordnance
     -- Shipbuilding
   - Defence Intelligence
   - Defence Research
 EDUCATION
+  - Curriculum Development
+  - Preschool Education
   - Primary Education
   - Secondary Education
   - Student Assistance
+  - Tertiary Education
+ELECTORAL MATTERS
 ENVIRONMENT
   - Conservation
   - Environmental Monitoring
@@ -45,28 +84,39 @@ ENVIRONMENT
   - National Parks
 FINANCIAL MATTERS
   - Banking
-  - Commonwealth State Relations
+  - Commonwealth-State Relations
   - Corporate Affairs
+  - Currency
+  - Foreign Investment Control
+  - Home Savings Schemes
   - Insurance
   - Market Regulation
+  - Public Borrowing
   - Rationing And Price Control
+  - Superannuation
+  - Taxation
 FOREIGN POLICY
   - Government Representation Overseas
-  - International Relations
     -- Consular Services
-    -- Overseas Aid Programs
+    -- Extraditions
+  - International Relations
+  - Overseas Aid Programs
   - Passports
-GOVERNOR GENERAL
+GOVERNOR-GENERAL
 GRANTS ADMINISTRATION
 HEALTH
   - Health Services
+    -- Aged Persons Services
     -- Dental Services
     -- Disability Services
+    -- Hearing Services
+    -- Nursing Services
   - Hospitals And Clinics
     -- Pathology
+  - Medical Research
   - Pharmaceuticals And Medical Aids
+  - Quarantine
   - Rehabilitation
-HOUSE OF REPRESENTATIVES COMMITTEES
 INDIGENOUS AFFAIRS
   - Indigenous Enterprises
   - Indigenous Land Rights
@@ -75,27 +125,24 @@ INDUSTRIAL RELATIONS
   - Arbitration
   - Compensation Schemes
   - Employment
+    -- Labour Market Programs
     -- Trade Skills Assessment
     -- Vocational Training Schemes
   - National Service
   - Occupational Health And Safety
-INDUSTRIES
+  - Trade Union Training
+INSPECTION
 INVESTIGATION
 JUSTICE ADMINISTRATION
-  - Administrative Law
-    -- Bankruptcy
-    -- Censorship
-    -- Consumer Affairs
-    -- Copyright
-    -- Human Rights
-    -- Legal Aid
-    -- Legal Services
-    -- Ombudsman
   - Court Reporting
   - Family Law
   - Federal Law
-LAND USE
-LEGAL
+  - Supreme Law
+LAW ENFORCEMENT
+  - Corrective Services
+  - Criminology
+  - Police Administration
+  - Protective Services
 LEGISLATION
 LOANS
 MARKETING
@@ -103,18 +150,19 @@ MEMORIALS
   - Historic Memorials
   - War Memorials
 MIGRATION
+  - Citizenship
+  - Deportation
+  - Migrant Services
   - Multiculturalism
   - Passenger Entry Control
   - Refugees
   - Visas
 NATIONAL EVENTS
-NATIONAL LAND USE
-PARLIAMENTARY COMMITTEES
 PARLIAMENTARY MATTERS
   - Parliamentary Chamber Administration
+  - Parliamentary Legislation
+PERSONAL CASE ADMINISTRATION
 PLANNING
-POLICE STATION
-PORT AUTHORITIES
 PRIMARY INDUSTRIES
   - Agriculture
     -- Horticulture
@@ -126,13 +174,11 @@ PUBLIC SERVICE
   - Personnel
     -- Equity Programs
     -- Recruitment
-RECORDS OF THE GOVERNMENT
 RECREATION
   - National Fitness
   - Parks
   - Sport
   - Tourism
-RESEARCH
 RESEARCH AND DEVELOPMENT
 RESOURCES
   - Energy
@@ -146,12 +192,14 @@ SCIENCE
   - Marine Science
   - Meteorology
   - Scientific Research
+    -- Botany
     -- Genetics
+    -- Zoology
   - Space Science
   - Survey And Mapping
-SEAT OF GOVERNMENT
 SECONDARY INDUSTRIES
 SECURITY AND INTELLIGENCE
+  - External Security
   - Internal Security
   - Wartime Security
     -- Internees
@@ -159,20 +207,18 @@ SOCIAL AND ECONOMIC RESEARCH
 SOCIAL WELFARE
   - Community Services
     -- Child Welfare
-    -- Emergency Services
-    -- Natural Disasters
   - Health Insurance
   - Pensions And Benefits
 STANDARD SETTING
 STATISTICS
-SUPREME COURT LAW
-SURVEILLANCE
-SURVEILLANCE, ELECTRONIC
-TARIFF
 TERRITORY ADMINISTRATION
 TRADE
   - Bounties
   - Customs
+    -- Coastal Surveillance
+    -- Excise
+    -- Inspection Services
+    -- Tariff Regulation
   - Exports And Imports
   - Expositions
   - Patents And Trademarks
@@ -182,23 +228,17 @@ TRAINING
 TRANSPORT
   - Air Transport
     -- Air Safety
-    -- Airport Services
+    -- Airport
   - Land Transport
+    -- Rail Transport
+    -- Road Transport
     -- Road Safety
-  - Rail Transport
-  - Road Transport
+  - Rescue Coordination
   - Sea Transport
     -- Lighthouses
+    -- Navigation
+    -- Port Regulation
     -- Sea Safety
-TRANSPORT AND STORAGE
-URBAN OR REGIONAL DEVELOPMENT
 VETERANS' AFFAIRS
   - Repatriation
-    -- Repatriation Hospitals
-WORKS
-  - Building
-  - Civil Engineering
-  - Construction
-  - Housing
-  - Public Utilities
-  - Waste Disposal
+  - Repatriation Hospitals
