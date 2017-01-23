@@ -4,6 +4,7 @@ import re
 import pprint
 import json
 from pymongo import MongoClient
+from pymongo.errors import DuplicateKeyError
 from credentials import MONGO_SERIES_URL
 import datetime
 import pprint
@@ -20,7 +21,16 @@ def harvest_rs_functions():
     for row in soup.find_all('tr'):
         cells = row.find_all('td')
         try:
-            if not cells[0].find('p').string.strip() == 'NT':
+            if not cells[0].find('p'):
+                for para in cells[1].find_all('p'):
+                    child = para.get_text(' ', strip=True)
+                    child = re.sub(r' ([a-z]{1})\b', r'\1', child) # Some letters at end of words get orphaned -- join them up
+                    try:
+                        subfunc['narrower'].append({'term':child[2:].strip().lower()})
+                    except KeyError:
+                        subfunc['narrower'] = []
+                        subfunc['narrower'].append({'term':child[2:].strip().lower()})
+            elif not cells[0].find('p').string.strip() == 'NT':
                 if function:
                     functions.append(function)
                 if subfunc:
@@ -37,7 +47,7 @@ def harvest_rs_functions():
             else:
                 for para in cells[1].find_all('p'):
                     child = para.get_text(' ', strip=True)
-                    child = re.sub(r' ([a-z]{1})\b', r'\1', child)
+                    child = re.sub(r' ([a-z]{1})\b', r'\1', child) # Some letters at end of words get orphaned -- join them up
                     if child[:2] not in ['NT', 'BT']:
                         if subfunc:
                             try:
@@ -61,17 +71,27 @@ def harvest_rs_functions():
 def load_functions():
     dbclient = MongoClient(MONGO_SERIES_URL)
     db = dbclient.get_default_database()
-    with open('data/functions.json', 'rb') as json_file:
-        functions = json.load(json_file)
-        db.functionhierarchy.insert_many(functions)
+    db.functions.create_index('term', unique=True)
+    versions = ['recordsearch', 'agift1', 'agift2', 'agift3']
+    for version in versions:
+        functions = get_functions(version)
         for function in functions:
-            db.functions.insert_one({'name': function['name'], 'level': 0})
+            try:
+                db.functions.insert_one({'term': function['term'], 'versions': [{'version': version, 'level': 0}]})
+            except DuplicateKeyError:
+                db.functions.update_one({'term': function['term']}, {'$push': {'versions': {'version': version, 'level': 0}}})
             if 'narrower' in function:
                 for subf in function['narrower']:
-                    db.functions.insert_one({'name': subf['name'], 'level': 1, 'parent': function['name']})
+                    try:
+                        db.functions.insert_one({'term': subf['term'], 'versions': [{'version': version, 'level': 1, 'parent': function['term']}]})
+                    except DuplicateKeyError:
+                        db.functions.update_one({'term': subf['term']}, {'$push': {'versions': {'version': version, 'level': 1, 'parent': function['term']}}})
                     if 'narrower' in subf:
                         for subsubf in subf['narrower']:
-                            db.functions.insert_one({'name': subsubf, 'level': 2, 'parent': subf['name']})
+                            try:
+                                db.functions.insert_one({'term': subsubf['term'], 'versions': [{'version': version, 'level': 2, 'parent': subf['term']}]})
+                            except DuplicateKeyError:
+                                db.functions.update_one({'term': subsubf['term']}, {'$push': {'versions': {'version': version, 'level': 2, 'parent': subf['term']}}})
 
 
 def format_series_query(agency):
@@ -329,6 +349,16 @@ def make_diffs(version1, version2):
     print functions1
     differ = difflib.HtmlDiff()
     print differ.make_table(functions1, functions2, context=True)
+
+
+def get_used_functions():
+    dbclient = MongoClient(MONGO_SERIES_URL)
+    db = dbclient.get_default_database()
+    print '| Term | Number of agencies | Included in thesaurus |'
+    print '|----|----|----|'
+    for function in db.functions.find({'agencies': {'$exists': True}}).sort('term'):
+        print '| {:30} | {:4} | {} |'.format(function['term'], len(function['agencies']), ', '.join([version['version'] for version in function['versions']]))
+    print db.functions.find({'agencies': {'$exists': True}}).sort('term').count()
 
 
 

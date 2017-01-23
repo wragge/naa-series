@@ -37,7 +37,30 @@ CULTURAL AFFAIRS
   - Literature Funding
 DEFENCE
   - Defence Administration
+    -- Defence Coordination
+    -- Natural Disasters
   - Defence Forces
+    -- Air Force
+    -- Air Force Administration
+    -- Air Force Commands
+    -- Air Operations
+    -- Logistics (Air Force)
+    -- Training (Air Force)
+    -- Army
+    -- Army
+    -- Army Administration
+    -- Army Commands
+    -- Field Force (Army)
+    -- Logistics (Army)
+    -- Training (Army)
+    -- Courts Martial
+    -- Defence Service Home Schemes
+    -- Logistics (Defence)
+    -- Navy
+    -- Navy Administration
+    -- Navy Commands
+    -- Maritime Commands (Navy)
+    -- Prisoners Of War
   - Defence Industries
     -- Munitions
     -- Ordnance

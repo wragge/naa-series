@@ -128,10 +128,83 @@
         "term": "defence", 
         "narrower": [
             {
-                "term": "defence administration"
+                "term": "defence administration", 
+                "narrower": [
+                    {
+                        "term": "defence coordination"
+                    }, 
+                    {
+                        "term": "natural disasters"
+                    }
+                ]
             }, 
             {
-                "term": "defence forces"
+                "term": "defence forces", 
+                "narrower": [
+                    {
+                        "term": "air force"
+                    }, 
+                    {
+                        "term": "air force administration"
+                    }, 
+                    {
+                        "term": "air force commands"
+                    }, 
+                    {
+                        "term": "air operations"
+                    }, 
+                    {
+                        "term": "logistics (air force)"
+                    }, 
+                    {
+                        "term": "training (air force)"
+                    }, 
+                    {
+                        "term": "army"
+                    }, 
+                    {
+                        "term": "army"
+                    }, 
+                    {
+                        "term": "army administration"
+                    }, 
+                    {
+                        "term": "army commands"
+                    }, 
+                    {
+                        "term": "field force (army)"
+                    }, 
+                    {
+                        "term": "logistics (army)"
+                    }, 
+                    {
+                        "term": "training (army)"
+                    }, 
+                    {
+                        "term": "courts martial"
+                    }, 
+                    {
+                        "term": "defence service home schemes"
+                    }, 
+                    {
+                        "term": "logistics (defence)"
+                    }, 
+                    {
+                        "term": "navy"
+                    }, 
+                    {
+                        "term": "navy administration"
+                    }, 
+                    {
+                        "term": "navy commands"
+                    }, 
+                    {
+                        "term": "maritime commands (navy)"
+                    }, 
+                    {
+                        "term": "prisoners of war"
+                    }
+                ]
             }, 
             {
                 "term": "defence industries", 

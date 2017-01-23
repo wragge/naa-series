@@ -414,7 +414,6 @@ PRIMARY INDUSTRIES
     -- Horticultural Industry
     -- Pastoral Industry
     -- Silvicultural Industry
-  - 
     -- Viticultural Industry
   - Rural Field Day Promotion
   - Rural Partnership Programs

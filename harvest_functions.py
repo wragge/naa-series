@@ -65,7 +65,7 @@ class FunctionHarvester():
                     self.agencies.insert(result)
                 except DuplicateKeyError:
                     pass
-            self.functions.update_one({'name': self.function}, {'$push': {'agencies': {'$each': agencies}}}, upsert=True)
+            self.functions.update_one({'term': self.function}, {'$push': {'agencies': {'$each': agencies}}})
             self.pages_complete += 1
             page += 1
             print '{} pages complete'.format(self.pages_complete)
@@ -75,10 +75,10 @@ class FunctionHarvester():
 def harvest_agencies():
     dbclient = MongoClient(MONGO_SERIES_URL)
     db = dbclient.get_default_database()
-    for function in db.functions.find({'agencies': {'$exists': False}}).sort('name'):
-        print function['name']
+    for function in db.functions.find({'agencies': {'$exists': False}}).sort('term'):
+        print function['term']
         try:
-            harvester = FunctionHarvester(function['name'])
+            harvester = FunctionHarvester(function['term'])
         except TypeError:
             pass
         else:
@@ -88,9 +88,9 @@ def harvest_agencies():
 def restart_harvest_agencies():
     dbclient = MongoClient(MONGO_SERIES_URL)
     db = dbclient.get_default_database()
-    last = db.functions.find({'agencies': {'$exists': True}}).sort('name', DESCENDING).limit(1)
+    last = db.functions.find({'agencies': {'$exists': True}}).sort('term', DESCENDING).limit(1)
     last = list(last)
-    db.functions.update_one({'name': last[0]['name']}, {'$unset': {'agencies': ''}})
+    db.functions.update_one({'term': last[0]['term']}, {'$unset': {'agencies': ''}})
     harvest_agencies()
 
 
