@@ -28,7 +28,23 @@ DEFENCE
     -- Defence Coordination
   - Defence Forces
     -- Air Force
+      --- Air Force Administration
+      --- Air Force Commands
+        ---- Air Operations
+        ---- Logistics (Air Force)
+        ---- Training (Air Force)
+    -- Army
+      --- Army Administration
+      --- Army Commands
+        ---- Field Force (Army)
+        ---- Logistics (Army)
+        ---- Training (Army)
     -- Logistics (Defence)
+    -- Navy
+      --- Navy Administration
+      --- Navy Commands
+        ---- Maritime Commands (Navy)
+        ---- Navy Support
     -- Prisoners Of War
   - Defence Industries
     -- Shipbuilding

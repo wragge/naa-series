@@ -82,7 +82,7 @@ def load_functions():
     dbclient = MongoClient(MONGO_SERIES_URL)
     db = dbclient.get_default_database()
     db.functions.create_index('term', unique=True)
-    versions = ['recordsearch', 'agift1', 'agift2', 'agift3']
+    versions = ['crsthesaurus', 'recordsearch', 'agift1', 'agift2', 'agift3']
     for version in versions:
         functions = get_functions(version)
         for function in functions:
@@ -323,6 +323,14 @@ def write_functions(version):
                         for subsubf in subf['narrower']:
                             print '    -- {}'.format(subsubf['term'].title())
                             text_file.write('    -- {}\n'.format(subsubf['term'].title()))
+                            if 'narrower' in subsubf:
+                                for subsubsubf in subsubf['narrower']:
+                                    print '      --- {}'.format(subsubsubf['term'].title())
+                                    text_file.write('      --- {}\n'.format(subsubsubf['term'].title()))
+                                    if 'narrower' in subsubsubf:
+                                        for subsubsubsubf in subsubsubf['narrower']:
+                                            print '        ---- {}'.format(subsubsubsubf['term'].title())
+                                            text_file.write('        ---- {}\n'.format(subsubsubsubf['term'].title()))
     with open('data/functions-{}.json'.format(version), 'wb') as json_file:
         json.dump(functions, json_file, indent=4)
 
@@ -359,7 +367,6 @@ def make_diffs(version1, version2):
         functions1 = file1.readlines()
     with open('data/functions-{}.txt'.format(version2), 'rb') as file2:
         functions2 = file2.readlines()
-    print functions1
     differ = difflib.HtmlDiff()
     print differ.make_table(functions1, functions2, context=True)
 
@@ -412,12 +419,15 @@ class RSFunctionsClient(RSClient):
                             for related in row.find('table').find_all('tr'):
                                 cells = related.find_all('td')
                                 if re.search(r'Broad term', cells[0].string):
-                                    term['parent'] = cells[1].find('a').string.lower()
+                                    parent = cells[1].find('a').string.lower()
+                                    if parent == 'australian defence forces (adf)':
+                                        parent = 'defence forces'
+                                    term['parent'] = parent
                         terms.append(term)
             except AttributeError:
                 pass
-        functions = [term for term in terms if 'parent' not in term]
-        children = [term for term in terms if 'parent' in term]
+        functions = [t for t in terms if 'parent' not in t]
+        children = [t for t in terms if 'parent' in t]
         for term in children:
             parent = term['parent']
             for function in functions:
@@ -438,6 +448,34 @@ class RSFunctionsClient(RSClient):
                             except KeyError:
                                 subf['narrower'] = []
                                 subf['narrower'].append({'term': term['term']})
+        for term in children:
+            parent = term['parent'].lower()
+            for function in functions:
+                if 'narrower' in function:
+                    for subf in function['narrower']:
+                        if 'narrower' in subf:
+                            for subsubf in subf['narrower']:
+                                if subsubf['term'] == parent:
+                                    try:
+                                        subsubf['narrower'].append({'term': term['term']})
+                                    except KeyError:
+                                        subsubf['narrower'] = []
+                                        subsubf['narrower'].append({'term': term['term']})
+        for term in children:
+            parent = term['parent'].lower()
+            for function in functions:
+                if 'narrower' in function:
+                    for subf in function['narrower']:
+                        if 'narrower' in subf:
+                            for subsubf in subf['narrower']:
+                                if 'narrower' in subsubf:
+                                    for subsubsubf in subsubf['narrower']:
+                                        if subsubsubf['term'] == parent:
+                                            try:
+                                                subsubsubf['narrower'].append({'term': term['term']})
+                                            except KeyError:
+                                                subsubsubf['narrower'] = []
+                                                subsubsubf['narrower'].append({'term': term['term']})
         return functions
 
 

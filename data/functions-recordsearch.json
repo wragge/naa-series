@@ -99,10 +99,70 @@
                 "term": "defence forces", 
                 "narrower": [
                     {
-                        "term": "air force"
+                        "term": "air force", 
+                        "narrower": [
+                            {
+                                "term": "air force administration"
+                            }, 
+                            {
+                                "term": "air force commands", 
+                                "narrower": [
+                                    {
+                                        "term": "air operations"
+                                    }, 
+                                    {
+                                        "term": "logistics (air force)"
+                                    }, 
+                                    {
+                                        "term": "training (air force)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "term": "army", 
+                        "narrower": [
+                            {
+                                "term": "army administration"
+                            }, 
+                            {
+                                "term": "army commands", 
+                                "narrower": [
+                                    {
+                                        "term": "field force (army)"
+                                    }, 
+                                    {
+                                        "term": "logistics (army)"
+                                    }, 
+                                    {
+                                        "term": "training (army)"
+                                    }
+                                ]
+                            }
+                        ]
                     }, 
                     {
                         "term": "logistics (defence)"
+                    }, 
+                    {
+                        "term": "navy", 
+                        "narrower": [
+                            {
+                                "term": "navy administration"
+                            }, 
+                            {
+                                "term": "navy commands", 
+                                "narrower": [
+                                    {
+                                        "term": "maritime commands (navy)"
+                                    }, 
+                                    {
+                                        "term": "navy support"
+                                    }
+                                ]
+                            }
+                        ]
                     }, 
                     {
                         "term": "prisoners of war"
